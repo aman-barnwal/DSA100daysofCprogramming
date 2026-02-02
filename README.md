@@ -55,3 +55,44 @@ All elements from that position onward are shifted one place to the right.
 ---
 
 
+## Day 02
+
+### Problem 1: Delete Element at Given Position in Array
+
+**Description**  
+Write a C program to delete an element at a given **1-based position** from an array of integers.  
+All elements from that position onward are shifted one place to the left.
+
+**Concepts Used**
+- Arrays  
+- Index-based traversal  
+- Element shifting  
+
+**Source Code**  
+[Day02/delete_element.c](Day02/delete_element.c)
+
+**Program Output Screenshot**
+
+![Program Output](Day02/delete_element.png)
+
+---
+
+### Problem 2: Best Time to Buy and Sell Stock (LeetCode)
+
+**Description**  
+You are given an array `prices` where `prices[i]` is the price of a stock on the `iᵗʰ` day.  
+Choose one day to buy and a later day to sell to maximize profit.  
+If no profit is possible, return `0`.
+
+**Concepts Used**
+- Arrays  
+- Single-pass traversal  
+- Greedy approach  
+
+**Time Complexity**  
+O(n)
+
+**LeetCode Output Screenshot**
+
+![LeetCode Output](Day02/leetcodeday02.png)
+
