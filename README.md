@@ -25,9 +25,6 @@ Each input has exactly one valid solution, and the same element cannot be used t
 - Nested loops
 - Index-based traversal
 
-**Source Code**  
-[Day01/two_sum.c](Day01/two_sum.c)
-
 **LeetCode Output Screenshot**
 
 ![LeetCode Output](Day01/day01leetcode.png)
