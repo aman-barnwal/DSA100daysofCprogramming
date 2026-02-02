@@ -28,9 +28,6 @@ Each input has exactly one valid solution, and the same element cannot be used t
 **Source Code**  
 [Day01/two_sum.c](Day01/two_sum.c)
 
-**Time Complexity**  
-O(n²)
-
 **LeetCode Output Screenshot**
 
 ![LeetCode Output](Day01/day01leetcode.png)
