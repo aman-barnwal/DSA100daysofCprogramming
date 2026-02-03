@@ -93,3 +93,29 @@ O(n)
 
 ![LeetCode Output](Day02/leetcodeday02.png)
 
+## Day03: Linear Search & Missing Number (GeeksforGeeks / LeetCode)
+
+### Problem: Array-Based Searching Problems
+
+**Description**  
+This day focuses on solving array-based searching problems.  
+One problem involves finding a missing element from a sequence of integers, while the other involves performing linear search on an array to locate a key element and count the number of comparisons.
+
+**Concepts Used**
+- Arrays  
+- Index-based traversal  
+- Linear iteration  
+- Conditional statements  
+
+**Source Code**
+[Day03/linear_search.c](Day03/linear_search.c)
+
+**Program Output Screenshot**
+
+![Program Output](Day03/linear_search.png)
+
+**GeeksforGeeks / LeetCode Submission Screenshot**
+
+![GFG Output](Day03/solution.png)
+
+
