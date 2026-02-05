@@ -6,26 +6,29 @@
 
 ---
 
-This repository documents my **100 Days of Code** challenge focused on **C Programming and Data Structures & Algorithms (DSA)**.
+## Introduction
 
-The objective of this challenge is to build strong fundamentals in C programming, improve logical thinking, and maintain consistency through daily coding practice with proper version control.
+This repository contains the work completed as part of the **100 Days of Code** initiative with a focus on **C Programming** and **Data Structures & Algorithms (DSA)**.  
+The objective of this practice is to build strong programming fundamentals, improve logical reasoning, and apply algorithmic concepts through consistent hands-on coding.
+
+Each section below represents the problems solved on a particular day, along with source code references and output screenshots.
 
 ---
 
 ## Day 01
 
-### Problem 1: Two Sum
+### Problem 1: Two Sum (LeetCode)
 
 **Description**  
-Given an array of integers and a target value, return the indices of the two numbers such that they add up to the target.  
-Each input has exactly one valid solution, and the same element cannot be used twice.
+Given an integer array and a target value, identify two distinct indices such that the sum of the elements at those indices equals the target.  
+Exactly one valid solution exists for each input.
 
 **Concepts Used**
-- Arrays
-- Nested loops
-- Index-based traversal
+- Arrays  
+- Nested loops  
+- Index-based traversal  
 
-**LeetCode Output Screenshot**
+**Output Screenshot**
 
 ![LeetCode Output](Day01/day01leetcode.png)
 
@@ -34,31 +37,30 @@ Each input has exactly one valid solution, and the same element cannot be used t
 ### Problem 2: Insert Element at Given Position in Array
 
 **Description**  
-Write a C program to insert an element `x` at a given 1-based position in an array of `n` integers.  
-All elements from that position onward are shifted one place to the right.
+A C program to insert an element `x` at a specified **1-based position** in an array of `n` integers.  
+All elements following the position are shifted one index to the right.
 
 **Concepts Used**
-- Arrays
-- Index manipulation
-- Element shifting
+- Arrays  
+- Index manipulation  
+- Element shifting  
 
 **Source Code**  
 [Day01/insert_element_at_position.c](Day01/insert_element_at_position.c)
 
-**Program Output Screenshot**
+**Output Screenshot**
 
 ![Program Output](Day01/insert_element_at_position.png)
 
 ---
-
 
 ## Day 02
 
 ### Problem 1: Delete Element at Given Position in Array
 
 **Description**  
-Write a C program to delete an element at a given **1-based position** from an array of integers.  
-All elements from that position onward are shifted one place to the left.
+This program deletes an element from a given **1-based index** in an array.  
+Remaining elements are shifted left to maintain the array structure.
 
 **Concepts Used**
 - Arrays  
@@ -68,7 +70,7 @@ All elements from that position onward are shifted one place to the left.
 **Source Code**  
 [Day02/delete_element.c](Day02/delete_element.c)
 
-**Program Output Screenshot**
+**Output Screenshot**
 
 ![Program Output](Day02/delete_element.png)
 
@@ -77,45 +79,122 @@ All elements from that position onward are shifted one place to the left.
 ### Problem 2: Best Time to Buy and Sell Stock (LeetCode)
 
 **Description**  
-You are given an array `prices` where `prices[i]` is the price of a stock on the `iᵗʰ` day.  
-Choose one day to buy and a later day to sell to maximize profit.  
-If no profit is possible, return `0`.
+An array representing stock prices on consecutive days is provided.  
+The objective is to choose one day to buy and a later day to sell to maximize profit.  
+If no profit is possible, the output is `0`.
 
 **Concepts Used**
-- Arrays  
-- Single-pass traversal  
 - Greedy approach  
+- Single-pass traversal  
 
 **Time Complexity**  
 O(n)
 
-**LeetCode Output Screenshot**
+**Output Screenshot**
 
 ![LeetCode Output](Day02/leetcodeday02.png)
 
-## Day03: Linear Search & Missing Number (GeeksforGeeks / LeetCode)
+---
 
-### Problem: Array-Based Searching Problems
+## Day 03
+
+### Problem: Linear Search and Missing Number
 
 **Description**  
-This day focuses on solving array-based searching problems.  
-One problem involves finding a missing element from a sequence of integers, while the other involves performing linear search on an array to locate a key element and count the number of comparisons.
+This day focuses on basic searching techniques using arrays.  
+The tasks include performing linear search to locate a given element and identifying a missing number from a sequence.
 
 **Concepts Used**
 - Arrays  
-- Index-based traversal  
-- Linear iteration  
+- Linear traversal  
 - Conditional statements  
 
-**Source Code**
+**Source Code**  
 [Day03/linear_search.c](Day03/linear_search.c)
 
-**Program Output Screenshot**
+**Output Screenshot**
 
 ![Program Output](Day03/linear_search.png)
 
-**GeeksforGeeks / LeetCode Submission Screenshot**
+**Platform Submission Screenshot**
 
-![GFG Output](Day03/solution.png)
+![Submission Output](Day03/solution.png)
 
+---
+
+## Day 04
+
+### Problem 1: Reverse an Array Using Two-Pointer Technique
+
+**Description**  
+Given an array of integers, the task is to reverse the array **in-place** using the two-pointer approach.  
+Elements from both ends are swapped until the entire array is reversed.
+
+**Concepts Used**
+- Two-pointer technique  
+- In-place array modification  
+
+**Source Code**  
+[Day04/reverse_array.c](Day04/reverse_array.c)
+
+**Output Screenshot**
+
+![Program Output](Day04/reverse_array.png)
+
+---
+
+### Problem 2: Remove Element from Array (LeetCode)
+
+**Description**  
+Given an integer array `nums` and a value `val`, remove all occurrences of `val` **in-place**.  
+The function returns the number of elements not equal to `val`.  
+The order of elements may change.
+
+**Concepts Used**
+- Arrays  
+- Conditional filtering  
+
+**Output Screenshot**
+
+![LeetCode Output](Day04/remove_element.png)
+
+---
+
+## Day 05
+
+### Problem 1: Merge Two Sorted Logs
+
+**Description**  
+Two sorted arrays representing arrival times from two different servers are provided.  
+The task is to merge both arrays into a single sorted list while preserving chronological order.
+
+**Concepts Used**
+- Arrays  
+- Two-pointer traversal  
+- Merging logic  
+
+**Source Code**  
+[Day05/merge_logs.c](Day05/merge_logs.c)
+
+**Output Screenshot**
+
+![Program Output](Day05/merge_logs.png)
+
+---
+
+### Problem 2: Merge Two Sorted Arrays (LeetCode)
+
+**Description**  
+Two sorted arrays `nums1` and `nums2` are given along with integers `m` and `n`.  
+The goal is to merge `nums2` into `nums1` so that the final array remains sorted in non-decreasing order.  
+The merged result is stored directly in `nums1`.
+
+**Concepts Used**
+- Arrays  
+- Two-pointer technique  
+- In-place merging  
+
+**Output Screenshot**
+
+![LeetCode Output](Day05/merge_sorted_array.png)
 
