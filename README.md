@@ -198,3 +198,43 @@ The merged result is stored directly in `nums1`.
 
 ![LeetCode Output](Day05/merge_sorted_array.png)
 
+---
+
+## Day 06
+
+### Problem 1: Remove Duplicates from Sorted Array
+
+**Description**  
+Since the array is already sorted, we traverse it once and compare each element with the previous unique element.  
+Only the first occurrence of each value is kept, and duplicates are skipped to produce a list of unique elements.
+
+**Concepts Used**
+- Arrays  
+- Two-pointer technique  
+- In-place modification  
+
+**Source Code**  
+[Day06/remove_duplicates.c](Day06/remove_duplicates.c)
+
+**Output Screenshot**
+
+![Program Output](Day06/remove_duplicates.png)
+
+---
+
+### Problem 2: Move Zeroes (LeetCode)
+
+**Description**  
+All non-zero elements are shifted to the front of the array while maintaining their relative order.  
+Zeroes are automatically moved to the end by overwriting positions during traversal.
+
+**Concepts Used**
+- Arrays  
+- Two-pointer technique  
+- In-place updates  
+
+**Output Screenshot**
+
+![LeetCode Output](Day06/movezeroes.png)
+
+
