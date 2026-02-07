@@ -237,4 +237,43 @@ Zeroes are automatically moved to the end by overwriting positions during traver
 
 ![LeetCode Output](Day06/movezeroes.png)
 
+---
+
+## Day 07
+
+### Problem 1: Fibonacci Number Using Recursion
+
+**Description**  
+A recursive function is used to compute the n-th Fibonacci number by directly applying the recurrence relation fib(n) = fib(n−1) + fib(n−2).  
+The base cases fib(0) = 0 and fib(1) = 1 are handled explicitly to terminate recursion.
+
+**Concepts Used**
+- Recursion  
+- Function calls  
+- Mathematical recurrence  
+
+**Source Code**  
+[Day07/fibonacci_recursive.c](Day07/fibonacci_recursive.c)
+
+**Output Screenshot**
+
+![Program Output](Day07/fibonacci_recursive.png)
+
+---
+
+### Problem 2: Fibonacci Number (LeetCode – Problem 509)
+
+**Description**  
+The Fibonacci value is calculated based on the definition that each number is the sum of the previous two numbers in the sequence.  
+This problem reinforces understanding of recursion and sequence-based computation.
+
+**Concepts Used**
+- Recursion  
+- Mathematical sequence  
+
+**Output Screenshot**
+
+![LeetCode Output](Day07/509_fibonacci_number.png)
+
+
 
