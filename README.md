@@ -275,5 +275,42 @@ This problem reinforces understanding of recursion and sequence-based computatio
 
 ![LeetCode Output](Day07/509_fibonacci_number.png)
 
+---
+
+## Day 08
+
+### Problem 1: Fibonacci Number Using Recursion
+
+**Description**  
+A recursive function is implemented to compute the n-th Fibonacci number by repeatedly calling the function for smaller values of n.  
+The base conditions fib(0) = 0 and fib(1) = 1 ensure correct termination of the recursion.
+
+**Concepts Used**
+- Recursion  
+- Function calls  
+- Mathematical recurrence  
+
+**Source Code**  
+[Day08/DSA_Power.c](Day08/DSA_Power.c)
+
+**Output Screenshot**
+
+![Program Output](Day08/DSA_Power.png)
+
+---
+
+### Problem 2: Fibonacci Number Calculation (LeetCode)
+
+**Description**  
+This problem computes the Fibonacci value using the standard definition where each term is the sum of the two preceding terms.  
+It reinforces understanding of recursive sequence generation.
+
+**Concepts Used**
+- Recursion  
+- Mathematical sequences  
+
+**Output Screenshot**
+
+![LeetCode Output](Day08/DSA_PowerofTwo.png)
 
 
