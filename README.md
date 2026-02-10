@@ -329,7 +329,7 @@ This transformation produces the mirror image of the original string.
 - Character swapping  
 
 **Source Code**  
-[Day09/string_reverse.c](Day09/reverse_string.c)
+[Day09/reverse_string.c](Day09/reverse_string.c)
 
 **Output Screenshot**
 
