@@ -311,7 +311,7 @@ It reinforces understanding of recursive sequence generation.
 
 **Output Screenshot**
 
-![LeetCode Output](Day08/DSA_PowerofTwo.png)
+![LeetCode Output](Day08/DSA_PowerOfTwo.png)
 
 ---
 
