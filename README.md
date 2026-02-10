@@ -313,4 +313,80 @@ It reinforces understanding of recursive sequence generation.
 
 ![LeetCode Output](Day08/DSA_PowerofTwo.png)
 
+---
+
+## Day 09
+
+### Problem 1: Reverse a String (Mirror Transformation)
+
+**Description**  
+The given string is reversed by rearranging its characters so that the first character moves to the last position and so on.  
+This transformation produces the mirror image of the original string.
+
+**Concepts Used**
+- Strings  
+- Index-based traversal  
+- Character swapping  
+
+**Source Code**  
+[Day09/string_reverse.c](Day09/reverse_string.c)
+
+**Output Screenshot**
+
+![Program Output](Day09/reverse_string.png)
+
+---
+
+### Problem 2: Reverse String In-Place (LeetCode)
+
+**Description**  
+The input character array is reversed directly by swapping characters from both ends using a two-pointer approach.  
+The operation is performed in-place with constant extra memory.
+
+**Concepts Used**
+- Two-pointer technique  
+- In-place modification  
+
+**Output Screenshot**
+
+![LeetCode Output](Day09/reverse_string_leetcode.png)
+
+---
+
+## Day 10
+
+### Problem 1: Check Whether a String is Palindrome
+
+**Description**  
+The string is checked for palindrome property by comparing characters from the beginning and end using two pointers.  
+If all corresponding characters match, the string is identified as a palindrome.
+
+**Concepts Used**
+- Strings  
+- Two-pointer comparison  
+- Conditional logic  
+
+**Source Code**  
+[Day10/palindrome.c](Day10/palindrome.c)
+
+**Output Screenshot**
+
+![Program Output](Day10/palindrome.png)
+
+---
+
+### Problem 2: Intersection of Two Arrays (LeetCode)
+
+**Description**  
+The task is to find common elements between two integer arrays while considering the frequency of each element.  
+Each element in the result appears as many times as it occurs in both arrays.
+
+**Concepts Used**
+- Arrays  
+- Frequency counting  
+- Comparison logic  
+
+**Output Screenshot**
+
+![LeetCode Output](Day10/two_arrays.png)
 
