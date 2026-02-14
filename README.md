@@ -429,5 +429,42 @@ A new matrix is constructed to store the transposed values.
 
 ![LeetCode Output](Day11/transpose_matrix.png)
 
+---
 
+## Day 12
+
+### Problem 1: Symmetric Matrix Check
+
+**Description**  
+The matrix is first verified to ensure it is square.  
+It is considered symmetric if every element satisfies the condition matrix[i][j] == matrix[j][i].
+
+**Concepts Used**
+- 2D Arrays  
+- Nested loops  
+- Matrix property validation  
+
+**Source Code**  
+[Day12/symmetric_matrix.c](Day12/symmetric_matrix.c)
+
+**Output Screenshot**
+
+![Program Output](Day12/symmetric_matrix.png)
+
+---
+
+### Problem 2: Toeplitz Matrix (LeetCode 766)
+
+**Description**  
+A matrix is identified as Toeplitz if each diagonal from top-left to bottom-right contains identical values.  
+The condition matrix[i][j] == matrix[i-1][j-1] is checked for all valid positions.
+
+**Concepts Used**
+- Diagonal traversal  
+- 2D arrays  
+- Conditional comparison  
+
+**Output Screenshot**
+
+![LeetCode Output](Day12/toeplitmatrix.png)
 
