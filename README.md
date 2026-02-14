@@ -468,3 +468,43 @@ The condition matrix[i][j] == matrix[i-1][j-1] is checked for all valid position
 
 ![LeetCode Output](Day12/toeplitmatrix.png)
 
+---
+
+## Day 13
+
+### Problem 1: Spiral Matrix Traversal
+
+**Description**  
+The matrix is traversed in a clockwise spiral order starting from the outer boundary and gradually moving inward.  
+Four boundary variables (top, bottom, left, right) are updated after completing traversal of each layer.
+
+**Concepts Used**
+- 2D Arrays  
+- Boundary control  
+- Spiral traversal logic  
+- Nested loops  
+
+**Source Code**  
+[Day13/spiral_matrix.c](Day13/spiral_matrix.c)
+
+**Output Screenshot**
+
+![Program Output](Day13/spiral_matrix.png)
+
+---
+
+### Problem 2: Spiral Matrix (LeetCode)
+
+**Description**  
+All elements of the matrix are returned in spiral order using systematic boundary traversal.  
+The approach ensures each element is visited exactly once.
+
+**Concepts Used**
+- Matrix traversal  
+- Dynamic boundary adjustment  
+- Order-based extraction  
+
+**Output Screenshot**
+
+![LeetCode Output](Day13/spiral_matrix_leetcode.png.png)
+
