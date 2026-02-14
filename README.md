@@ -506,5 +506,45 @@ The approach ensures each element is visited exactly once.
 
 **Output Screenshot**
 
-![LeetCode Output](Day13/spiral_matrix_leetcode.png.png)
+![LeetCode Output](Day13/spiral_matrix_leetcode.png)
+
+---
+
+## Day 14
+
+### Problem 1: Identity Matrix Check
+
+**Description**  
+A square matrix is examined to determine whether it satisfies the identity matrix property.  
+All diagonal elements must be 1, and every non-diagonal element must be 0.
+
+**Concepts Used**
+- 2D Arrays  
+- Diagonal validation  
+- Nested loops  
+- Conditional checking  
+
+**Source Code**  
+[Day14/identity_matrix.c](Day14/identity_matrix.c)
+
+**Output Screenshot**
+
+![Program Output](Day14/identity_matrix.png)
+
+---
+
+### Problem 2: Rotate Image (LeetCode 48)
+
+**Description**  
+The matrix is rotated 90 degrees clockwise in-place without using extra space.  
+The approach involves first transposing the matrix and then reversing each row.
+
+**Concepts Used**
+- Matrix transpose  
+- In-place modification  
+- 2D array manipulation  
+
+**Output Screenshot**
+
+![LeetCode Output](Day14/rotate_image.png)
 
