@@ -390,3 +390,44 @@ Each element in the result appears as many times as it occurs in both arrays.
 
 ![LeetCode Output](Day10/two_arrays.png)
 
+---
+
+## Day 11
+
+### Problem 1: Matrix Addition
+
+**Description**  
+Two matrices of the same dimensions are read as input, and their corresponding elements are added to form a resultant matrix.  
+The result matrix is printed row-wise, where each element represents the sum of elements at the same position in both matrices.
+
+**Concepts Used**
+- 2D Arrays  
+- Nested loops  
+- Matrix traversal  
+
+**Source Code**  
+[Day11/matrix_addition.c](Day11/matrix_addition.c)
+
+**Output Screenshot**
+
+![Program Output](Day11/matrix_addition.png)
+
+---
+
+### Problem 2: Transpose Matrix (LeetCode)
+
+**Description**  
+The matrix is transformed by interchanging rows and columns such that element at position (i, j) becomes (j, i).  
+A new matrix is constructed to store the transposed values.
+
+**Concepts Used**
+- 2D Arrays  
+- Matrix indexing  
+- Nested iteration  
+
+**Output Screenshot**
+
+![LeetCode Output](Day11/transpose_matrix.png)
+
+
+
