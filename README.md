@@ -466,7 +466,7 @@ The condition matrix[i][j] == matrix[i-1][j-1] is checked for all valid position
 
 **Output Screenshot**
 
-![LeetCode Output](Day12/toeplitmatrix.png)
+![LeetCode Output](Day12/toeplitz_matrix.png)
 
 ---
 
