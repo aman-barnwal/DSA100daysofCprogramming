@@ -548,3 +548,43 @@ The approach involves first transposing the matrix and then reversing each row.
 
 ![LeetCode Output](Day14/rotate_image.png)
 
+---
+
+## Day 15
+
+### Problem 1: Primary Diagonal Sum
+
+**Description**  
+The matrix is traversed to calculate the sum of elements where the row index equals the column index.  
+Only elements forming the primary diagonal are included in the final sum.
+
+**Concepts Used**
+- 2D Arrays  
+- Diagonal traversal  
+- Nested loops  
+
+**Source Code**  
+[Day15/primary_diagonal_sum.c](Day15/primary_diagonal_sum.c)
+
+**Output Screenshot**
+
+![Program Output](Day15/primary_diagonal_sum.png)
+
+---
+
+### Problem 2: Set Matrix Zeroes (LeetCode 73)
+
+**Description**  
+If any element in the matrix is zero, its entire row and column are set to zero.  
+The solution is implemented in-place using marker rows and columns to maintain constant extra space.
+
+**Concepts Used**
+- In-place matrix modification  
+- Row and column marking  
+- Nested traversal  
+
+**Output Screenshot**
+
+![LeetCode Output](Day15/set_matrix_zeroes.png)
+
+
