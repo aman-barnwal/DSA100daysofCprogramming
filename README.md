@@ -587,4 +587,43 @@ The solution is implemented in-place using marker rows and columns to maintain c
 
 ![LeetCode Output](Day15/set_matrix_zeroes.png)
 
+---
+
+## Day 16
+
+### Problem 1: Frequency of Elements in an Array
+
+**Description**  
+The program counts how many times each distinct element appears in the given array.  
+Each element is printed in the format element:count.
+
+**Concepts Used**
+- Arrays  
+- Nested loops  
+- Frequency counting  
+
+**Source Code**  
+[Day16/frequency_count.c](Day16/frequency_count.c)
+
+**Output Screenshot**
+
+![Program Output](Day16/frequency_count.png)
+
+---
+
+### Problem 2: Rotate Array (LeetCode 189)
+
+**Description**  
+The array is rotated to the right by k steps using an in-place reversal approach.  
+The method reverses the entire array, then reverses segments to achieve the required rotation.
+
+**Concepts Used**
+- Array manipulation  
+- Reversal technique  
+- In-place modification  
+
+**Output Screenshot**
+
+![LeetCode Output](Day16/rotate_array.png)
+
 
