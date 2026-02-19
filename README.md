@@ -646,7 +646,7 @@ During traversal, the maximum and minimum values are updated dynamically.
 
 **Output Screenshot**
 
-![Program Output](Day17/max_min_array.jpg)
+![Program Output](Day17/max_min_array.png)
 
 ---
 
@@ -663,7 +663,7 @@ Kadane’s Algorithm is applied to compute the maximum subarray sum in linear ti
 
 **LeetCode Output Screenshot**
 
-![LeetCode Output](Day17/maximum_subarray.jpg)
+![LeetCode Output](Day17/maximum_subarray.png)
 
 ---
 
@@ -685,7 +685,7 @@ Each element is placed at its new index computed using modular arithmetic.
 
 **Output Screenshot**
 
-![Program Output](Day18/rotate_array_k.jpg)
+![Program Output](Day18/rotate_array_k.png)
 
 ---
 
@@ -702,5 +702,5 @@ Prefix and suffix multiplication are used to achieve linear time complexity with
 
 **LeetCode Output Screenshot**
 
-![LeetCode Output](Day18/product_except_self.jpg)
+![LeetCode Output](Day18/product_except_self.png)
 
