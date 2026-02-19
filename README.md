@@ -630,11 +630,50 @@ The method reverses the entire array, then reverses segments to achieve the requ
 
 ## Day 17
 
+### Problem 1: Maximum and Minimum in an Array
+
+**Description**  
+The array is traversed once to determine the largest and smallest elements.  
+During traversal, the maximum and minimum values are updated dynamically.
+
+**Concepts Used**
+- Arrays  
+- Linear traversal  
+- Conditional comparison  
+
+**Source Code**  
+[Day17/max_min_array.c](Day17/max_min_array.c)
+
+**Output Screenshot**
+
+![Program Output](Day17/max_min_array.jpg)
+
+---
+
+### Problem 2: Maximum Subarray (LeetCode 53)
+
+**Description**  
+The task is to find a contiguous subarray with the largest possible sum.  
+Kadane’s Algorithm is applied to compute the maximum subarray sum in linear time.
+
+**Concepts Used**
+- Dynamic programming  
+- Kadane’s Algorithm  
+- Running sum optimization  
+
+**LeetCode Output Screenshot**
+
+![LeetCode Output](Day17/maximum_subarray.jpg)
+
+---
+
+## Day 18
+
 ### Problem 1: Rotate Array by k Positions
 
 **Description**  
-The elements of the array are rotated to the right by k steps.  
-Each element is repositioned using modular arithmetic to ensure correct circular shifting.
+The elements of the array are rotated to the right by k positions using circular indexing.  
+Each element is placed at its new index computed using modular arithmetic.
 
 **Concepts Used**
 - Arrays  
@@ -642,32 +681,26 @@ Each element is repositioned using modular arithmetic to ensure correct circular
 - Index manipulation  
 
 **Source Code**  
-[Day17/rotate_array_k.c](Day17/rotate_array_k.c)
+[Day18/rotate_array_k.c](Day18/rotate_array_k.c)
 
 **Output Screenshot**
 
-![Program Output](Day17/rotate_array_k.png)
+![Program Output](Day18/rotate_array_k.jpg)
 
 ---
 
-## Day 18
-
-### Problem 1: Product of Array Except Self (LeetCode 238)
+### Problem 2: Product of Array Except Self (LeetCode 238)
 
 **Description**  
-For every index, the product of all other elements in the array is computed without using division.  
-The solution applies prefix and suffix multiplication to achieve linear time complexity with constant extra space.
+For every index in the array, the product of all other elements is calculated without using division.  
+Prefix and suffix multiplication are used to achieve linear time complexity with constant extra space.
 
 **Concepts Used**
 - Prefix products  
 - Suffix products  
-- In-place array processing  
+- In-place computation  
 
-**Source Code**  
-[Day18/product_except_self.c](Day18/product_except_self.c)
+**LeetCode Output Screenshot**
 
-**Output Screenshot**
-
-![LeetCode Output](Day18/product_except_self.png)
-
+![LeetCode Output](Day18/product_except_self.jpg)
 
