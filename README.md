@@ -626,4 +626,48 @@ The method reverses the entire array, then reverses segments to achieve the requ
 
 ![LeetCode Output](Day16/rotate_array.png)
 
+---
+
+## Day 17
+
+### Problem 1: Rotate Array by k Positions
+
+**Description**  
+The elements of the array are rotated to the right by k steps.  
+Each element is repositioned using modular arithmetic to ensure correct circular shifting.
+
+**Concepts Used**
+- Arrays  
+- Modular arithmetic  
+- Index manipulation  
+
+**Source Code**  
+[Day17/rotate_array_k.c](Day17/rotate_array_k.c)
+
+**Output Screenshot**
+
+![Program Output](Day17/rotate_array_k.png)
+
+---
+
+## Day 18
+
+### Problem 1: Product of Array Except Self (LeetCode 238)
+
+**Description**  
+For every index, the product of all other elements in the array is computed without using division.  
+The solution applies prefix and suffix multiplication to achieve linear time complexity with constant extra space.
+
+**Concepts Used**
+- Prefix products  
+- Suffix products  
+- In-place array processing  
+
+**Source Code**  
+[Day18/product_except_self.c](Day18/product_except_self.c)
+
+**Output Screenshot**
+
+![LeetCode Output](Day18/product_except_self.png)
+
 
