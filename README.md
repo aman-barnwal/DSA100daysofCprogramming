@@ -704,3 +704,125 @@ Prefix and suffix multiplication are used to achieve linear time complexity with
 
 ![LeetCode Output](Day18/product_except_self.png)
 
+---
+
+## Day 19
+
+### Problem 1: Pair with Sum Closest to Zero
+
+**Description**  
+The array is sorted and a two-pointer approach is used to find two elements whose sum is closest to zero.  
+The pair with the minimum absolute sum is tracked during traversal.
+
+**Concepts Used**
+- Arrays  
+- Sorting  
+- Two-pointer technique  
+- Absolute comparison  
+
+**Source Code**  
+[Day19/closest_sum_zero.c](Day19/closest_sum_zero.c)
+
+**Output Screenshot**
+
+![Program Output](Day19/closest_sum_zero.png)
+
+---
+
+### Problem 2: Maximum Sum Circular Subarray (LeetCode 918)
+
+**Description**  
+The maximum subarray sum is computed considering both normal and circular cases.  
+Kadane’s Algorithm is applied to find the maximum and minimum subarrays, and the final answer is determined accordingly.
+
+**Concepts Used**
+- Kadane’s Algorithm  
+- Circular array handling  
+- Prefix and suffix reasoning  
+- O(n) optimization  
+
+**LeetCode Output Screenshot**
+
+![LeetCode Output](Day19/maximum_circular_subarray.png)
+
+---
+
+## Day 20
+
+### Problem 1: Count Subarrays with Sum Equal to Zero
+
+**Description**  
+The program counts all continuous subarrays whose total sum is zero.  
+Each possible starting point is checked to determine whether a zero-sum subarray exists.
+
+**Concepts Used**
+- Arrays  
+- Prefix sum logic  
+- Nested traversal  
+
+**Source Code**  
+[Day20/zero_sum_subarrays.c](Day20/zero_sum_subarrays.c)
+
+**Output Screenshot**
+
+![Program Output](Day20/zero_sum_subarrays.png)
+
+---
+
+## Day 21
+
+### Problem 1: 3Sum (LeetCode 15)
+
+**Description**  
+All unique triplets in the array that sum to zero are identified.  
+Sorting combined with the two-pointer technique is used to avoid duplicate triplets and achieve O(n²) complexity.
+
+**Concepts Used**
+- Sorting  
+- Two-pointer technique  
+- Duplicate handling  
+- Nested traversal  
+
+**Source Code**  
+[Day21/three_sum.c](Day21/three_sum.c)
+
+**LeetCode Output Screenshot**
+
+![LeetCode Output](Day21/three_sum.png)
+
+---
+
+### Problem 2: Create and Traverse Singly Linked List
+
+**Description**  
+A singly linked list is dynamically created using user input.  
+The list is then traversed sequentially to display all elements.
+
+**Concepts Used**
+- Structures  
+- Dynamic memory allocation  
+- Pointer manipulation  
+
+**Source Code**  
+[Day21/singly_linked_list.c](Day21/singly_linked_list.c)
+
+**Output Screenshot**
+
+![Program Output](Day21/singly_linked_list.png)
+
+---
+
+### Problem 3: Middle of the Linked List (LeetCode 876)
+
+**Description**  
+The middle node of a singly linked list is determined using the fast and slow pointer technique.  
+If two middle nodes exist, the second one is returned.
+
+**Concepts Used**
+- Fast and slow pointer  
+- Linked list traversal  
+- O(1) space solution  
+
+**LeetCode Output Screenshot**
+
+![LeetCode Output](Day21/middle_of_linked_list.png)
