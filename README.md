@@ -774,8 +774,7 @@ Each possible starting point is checked to determine whether a zero-sum subarray
 ### Problem 1: Create and Traverse Singly Linked List
 
 **Description**  
-A singly linked list is dynamically created using user input.  
-The list is then traversed sequentially to print all elements.
+A singly linked list is dynamically created using user input and then traversed to print all elements in order.
 
 **Concepts Used**
 - Structures  
@@ -794,13 +793,12 @@ The list is then traversed sequentially to print all elements.
 ### Problem 2: Middle of the Linked List (LeetCode 876)
 
 **Description**  
-The middle node of a linked list is found using the fast and slow pointer technique.  
+The middle node of the linked list is found using the fast and slow pointer technique.  
 If two middle nodes exist, the second one is returned.
 
 **Concepts Used**
 - Fast and slow pointer  
 - Linked list traversal  
-- O(1) space solution  
 
 **LeetCode Output Screenshot**
 
@@ -810,37 +808,37 @@ If two middle nodes exist, the second one is returned.
 
 ## Day 22
 
-### Problem 1: Reverse Linked List (LeetCode 206)
+### Problem 1: Count Nodes in Linked List
 
 **Description**  
-The linked list is reversed either iteratively or recursively.  
-Each node’s next pointer is redirected to reverse the direction of traversal.
+A linked list is created dynamically, and the total number of nodes present in the list is calculated by traversal.
+
+**Concepts Used**
+- Linked list traversal  
+- Node counting  
+- Dynamic memory allocation  
+
+**Source Code**  
+[Day22/count_nodes.c](Day22/count_nodes.c)
+
+**Output Screenshot**
+
+![Program Output](Day22/count_nodes.png)
+
+---
+
+### Problem 2: Reverse Linked List (LeetCode 206)
+
+**Description**  
+The linked list is reversed by modifying the direction of next pointers for each node.
 
 **Concepts Used**
 - Pointer manipulation  
 - Iterative reversal  
-- Recursive approach  
 
 **LeetCode Output Screenshot**
 
 ![LeetCode Output](Day22/reverse_linked_list.png)
-
----
-
-### Problem 2: Linked List Cycle (LeetCode 141)
-
-**Description**  
-The presence of a cycle in the linked list is detected using Floyd’s cycle detection algorithm.  
-Two pointers moving at different speeds are used to determine if a cycle exists.
-
-**Concepts Used**
-- Fast and slow pointer  
-- Cycle detection  
-- O(1) space solution  
-
-**LeetCode Output Screenshot**
-
-![LeetCode Output](Day22/linked_list_cycle.png)
 
 ---
 
@@ -849,8 +847,7 @@ Two pointers moving at different speeds are used to determine if a cycle exists.
 ### Problem 1: Merge Two Sorted Linked Lists
 
 **Description**  
-Two sorted linked lists are merged into a single sorted list using pointer comparison.  
-Nodes are appended in ascending order without creating new nodes during merging.
+Two sorted linked lists are merged into a single sorted list by comparing node values and updating pointers accordingly.
 
 **Concepts Used**
 - Linked list traversal  
@@ -866,20 +863,18 @@ Nodes are appended in ascending order without creating new nodes during merging.
 
 ---
 
-### Problem 2: Merge Two Sorted Lists (LeetCode 21)
+### Problem 2: Linked List Cycle (LeetCode 141)
 
 **Description**  
-Two sorted linked lists are merged using a dummy node to simplify pointer handling.  
-The final list preserves sorted order.
+The presence of a cycle in a linked list is detected using Floyd’s cycle detection algorithm.
 
 **Concepts Used**
-- Dummy node technique  
-- Linked list manipulation  
-- O(n + m) merging  
+- Fast and slow pointer  
+- Cycle detection  
 
 **LeetCode Output Screenshot**
 
-![LeetCode Output](Day23/merge_two_sorted_lists.png)
+![LeetCode Output](Day23/linked_list_cycle.png)
 
 ---
 
@@ -888,8 +883,7 @@ The final list preserves sorted order.
 ### Problem 1: Delete First Occurrence of a Key
 
 **Description**  
-The first node containing the specified key is located and removed by updating pointer links.  
-Dynamic memory allocation is used for node management.
+The first node containing the specified key is located and removed by updating pointer links.
 
 **Concepts Used**
 - Linked list traversal  
@@ -908,13 +902,12 @@ Dynamic memory allocation is used for node management.
 ### Problem 2: Remove Linked List Elements (LeetCode 203)
 
 **Description**  
-All nodes containing a specified value are removed from the linked list.  
-A dummy node is used to simplify deletion logic, especially when the head node is removed.
+All nodes containing a specific value are removed from the linked list using a dummy node approach.
 
 **Concepts Used**
 - Dummy node technique  
-- Linked list filtering  
 - Pointer updates  
+- Linked list filtering  
 
 **LeetCode Output Screenshot**
 
