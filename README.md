@@ -912,3 +912,43 @@ All nodes containing a specific value are removed from the linked list using a d
 **LeetCode Output Screenshot**
 
 ![LeetCode Output](Day24/remove_ll_elements.png)
+
+---
+
+## Day 25
+
+### Problem 1: Count Occurrences of an Element in Linked List
+
+**Description**  
+A linked list is created dynamically using user input.  
+The list is traversed from head to end, and each time the node’s value matches the given key, a counter is incremented.  
+After traversal, the total number of occurrences is printed.
+
+**Concepts Used**
+- Linked list traversal  
+- Dynamic memory allocation  
+- Conditional counting  
+
+**Source Code**  
+[Day25/count_occurrences.c](Day25/count_occurrences.c)
+
+**Output Screenshot**
+
+![Program Output](Day25/count_occurrences.png)
+
+---
+
+### Problem 2: Linked List Cycle II (LeetCode 142)
+
+**Description**  
+The node where a cycle begins in a linked list is identified using Floyd’s cycle detection algorithm.  
+After detecting a meeting point inside the cycle, one pointer is reset to the head, and both pointers move one step at a time to find the starting node of the cycle.
+
+**Concepts Used**
+- Fast and slow pointer  
+- Cycle detection  
+- Constant space solution  
+
+**LeetCode Output Screenshot**
+
+![LeetCode Output](Day25/linked_list_cycle_start.png)
