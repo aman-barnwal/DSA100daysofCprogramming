@@ -952,3 +952,170 @@ After detecting a meeting point inside the cycle, one pointer is reset to the he
 **LeetCode Output Screenshot**
 
 ![LeetCode Output](Day25/linked_list_cycle_start.png)
+
+---
+
+## Day 26
+
+### Problem 1: Doubly Linked List Insertion and Traversal
+
+**Description**  
+A doubly linked list is created using dynamic memory allocation.  
+Each node maintains both `next` and `prev` pointers.  
+The list is traversed in forward direction to display elements.
+
+**Concepts Used**
+- Doubly linked list  
+- Dynamic memory allocation  
+- Pointer linking  
+
+**Source Code**  
+[Day26/doubly_linked_list.c](Day26/doubly_linked_list.c)
+
+**Output Screenshot**
+
+![Program Output](Day26/doubly_linked_list.png)
+
+---
+
+## Day 27
+
+### Problem 1: Find Intersection Point of Two Linked Lists
+
+**Description**  
+Two singly linked lists are created and their lengths are calculated.  
+The longer list pointer is advanced by the difference in lengths, and both lists are traversed together to find the intersection point.
+
+**Concepts Used**
+- Linked list traversal  
+- Length calculation  
+- Pointer alignment  
+
+**Source Code**  
+[Day27/intersection_linked_list.c](Day27/intersection_linked_list.c)
+
+**Output Screenshot**
+
+![Program Output](Day27/intersection_linked_list.png)
+
+---
+
+## Day 28
+
+### Problem 1: Circular Linked List Creation and Traversal
+
+**Description**  
+A circular linked list is created using dynamic memory allocation.  
+The last node is connected back to the head to form a circular structure.  
+Traversal continues until the pointer reaches the head again to avoid an infinite loop.
+
+**Concepts Used**
+- Singly Linked List
+- Circular Linked List
+- Dynamic Memory Allocation
+- Pointer Traversal
+
+**Source Code**  
+[Day28/circular_ll.c](Day28/circular_ll.c)
+
+**Output Screenshot**
+
+![Program Output](Day28/circular_ll.png)
+
+---
+
+### Problem 2: Palindrome Linked List (LeetCode)
+
+**Description**  
+This problem determines whether a singly linked list is a palindrome.  
+The middle is found using the slow and fast pointer technique, the second half is reversed, and both halves are compared.
+
+**Concepts Used**
+- Two Pointer Technique
+- Linked List Reversal
+- In-place Comparison
+
+**Output Screenshot**
+
+![LeetCode Output](Day28/palindrome_ll.png)
+
+---
+
+## Day 29
+
+### Problem 1: Rotate Linked List Right by k Places
+
+**Description**  
+The linked list is rotated to the right by k positions.  
+The list is temporarily made circular, and the new head is determined after moving (n − k) steps.
+
+**Concepts Used**
+- Linked List Traversal
+- Circular Linking
+- Pointer Manipulation
+- Modulo Optimization
+
+**Source Code**  
+[Day29/rotate_ll_k.c](Day29/rotate_ll_k.c)
+
+**Output Screenshot**
+
+![Program Output](Day29/rotate_ll_k.png)
+
+---
+
+### Problem 2: Add Two Numbers (LeetCode)
+
+**Description**  
+Two linked lists represent numbers in reverse order.  
+Each corresponding digit is added with carry handling to form a new linked list.
+
+**Concepts Used**
+- Linked List Traversal
+- Carry Handling
+- Dynamic Node Creation
+
+**Output Screenshot**
+
+![LeetCode Output](Day29/add_two_numbers.png)
+
+---
+
+## Day 30
+
+### Problem 1: Polynomial Using Linked List
+
+**Description**  
+A polynomial is represented using a linked list where each node stores a coefficient and exponent.  
+The polynomial is printed in standard mathematical format.
+
+**Concepts Used**
+- Linked List Representation
+- Structured Data Storage
+- Polynomial Formatting Logic
+
+**Source Code**  
+[Day30/polynomial_ll.c](Day30/polynomial_ll.c)
+
+**Output Screenshot**
+
+![Program Output](Day30/polynomial_ll.png)
+
+---
+
+### Problem 2: Add Two Numbers II (LeetCode)
+
+**Description**  
+Two linked lists represent numbers in forward order.  
+Stacks are used to process digits from least significant to most significant without modifying the original lists.
+
+**Concepts Used**
+- Stack Simulation
+- Linked List Construction
+- Carry Propagation
+
+**Output Screenshot**
+
+![LeetCode Output](Day30/add_two_numbers_ii.png)
+
+---
