@@ -1119,3 +1119,85 @@ Stacks are used to process digits from least significant to most significant wit
 ![LeetCode Output](Day30/add_two_numbers_ii.png)
 
 ---
+
+## Day 31
+
+### Problem 1: Stack Implementation Using Array
+
+**Description**  
+A stack data structure is implemented using an array.  
+The program supports three operations: push, pop, and display.  
+Push inserts an element at the top of the stack, pop removes the top element, and display prints the stack elements from top to bottom.
+
+**Concepts Used**
+- Stack Data Structure
+- Array Implementation
+- Push and Pop Operations
+- LIFO Principle
+
+**Source Code**  
+[Day31/stack_array.c](Day31/stack_array.c)
+
+**Output Screenshot**
+
+![Program Output](Day31/stack_array.png)
+
+---
+
+### Problem 2: Valid Parentheses (LeetCode)
+
+**Description**  
+This problem checks whether a string of brackets is valid.  
+A stack is used to ensure that every opening bracket has a matching closing bracket in the correct order.
+
+**Concepts Used**
+- Stack
+- Character Processing
+- Bracket Matching
+
+**Output Screenshot**
+
+![LeetCode Output](Day31/valid_parentheses.png)
+
+---
+
+## Day 32
+
+### Problem 1: Stack Push and Pop Verification
+
+**Description**  
+This program demonstrates stack operations using an array.  
+Elements are first pushed onto the stack, and then a specified number of pop operations are performed.  
+After performing the pops, the remaining elements in the stack are printed from top to bottom.
+
+**Concepts Used**
+- Stack Data Structure
+- Push Operation
+- Pop Operation
+- Array Implementation
+- LIFO Principle
+
+**Source Code**  
+[Day32/stack_push_pop.c](Day32/stack_push_pop.c)
+
+**Output Screenshot**
+
+![Program Output](Day32/stack_push_pop.png)
+
+---
+
+### Problem 2: Min Stack (LeetCode)
+
+**Description**  
+This problem designs a stack that supports push, pop, top, and retrieving the minimum element in constant time.  
+An auxiliary structure is used to track the minimum value at each stage of the stack.
+
+**Concepts Used**
+- Stack
+- Constant Time Minimum Retrieval
+- Auxiliary Stack Technique
+
+**Output Screenshot**
+
+![LeetCode Output](Day32/min_stack.png)
+
