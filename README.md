@@ -1201,3 +1201,200 @@ An auxiliary structure is used to track the minimum value at each stage of the s
 
 ![LeetCode Output](Day32/min_stack.png)
 
+---
+
+## Day 33
+
+### Problem 1: Infix to Postfix Conversion Using Stack
+
+**Description**  
+This program converts an infix expression into postfix notation using a stack.  
+Operator precedence is maintained while pushing and popping operators from the stack.
+
+**Concepts Used**
+- Stack Data Structure
+- Expression Conversion
+- Operator Precedence
+- Character Processing
+
+**Source Code**  
+[Day33/infix_to_postfix.c](Day33/infix_to_postfix.c)
+
+**Output Screenshot**
+
+![Program Output](Day33/infix_to_postfix.png)
+
+---
+
+### Problem 2: Evaluate Reverse Polish Notation (LeetCode)
+
+**Description**  
+This problem evaluates an arithmetic expression written in Reverse Polish Notation.  
+Operands are pushed onto a stack and operators apply operations on the top elements.
+
+**Concepts Used**
+- Stack
+- Expression Evaluation
+- Postfix Computation
+
+**Output Screenshot**
+
+![LeetCode Output](Day33/evaluate_rpn.png)
+
+---
+
+## Day 34
+
+### Problem 1: Evaluate Postfix Expression Using Linked List Stack
+
+**Description**  
+A postfix expression is evaluated using a stack implemented with a linked list.  
+Operands are pushed onto the stack and operators pop operands to compute results.
+
+**Concepts Used**
+- Stack using Linked List
+- Dynamic Memory Allocation
+- Postfix Evaluation
+
+**Source Code**  
+[Day34/postfix_eval_ll.c](Day34/postfix_eval_ll.c)
+
+**Output Screenshot**
+
+![Program Output](Day34/postfix_eval_ll.png)
+
+---
+
+### Problem 2: Basic Calculator II (LeetCode)
+
+**Description**  
+This problem evaluates a string expression containing addition, subtraction, multiplication, and division.  
+A stack is used to maintain correct operator precedence.
+
+**Concepts Used**
+- Stack
+- Expression Parsing
+- Operator Precedence Handling
+
+**Output Screenshot**
+
+![LeetCode Output](Day34/basic_calculator_ii.png)
+
+---
+
+## Day 35
+
+### Problem 1: Queue Implementation Using Array
+
+**Description**  
+A queue is implemented using an array with front and rear pointers.  
+Elements are inserted at the rear and displayed from front to rear.
+
+**Concepts Used**
+- Queue Data Structure
+- FIFO Principle
+- Array Implementation
+
+**Source Code**  
+[Day35/queue_array.c](Day35/queue_array.c)
+
+**Output Screenshot**
+
+![Program Output](Day35/queue_array.png)
+
+---
+
+### Problem 2: Implement Queue Using Stacks (LeetCode)
+
+**Description**  
+A queue is implemented using two stacks.  
+One stack handles push operations while the other helps simulate FIFO order during pop and peek operations.
+
+**Concepts Used**
+- Stack
+- Queue Simulation
+- Data Structure Transformation
+
+**Output Screenshot**
+
+![LeetCode Output](Day35/queue_using_stacks.png)
+
+---
+
+## Day 36
+
+### Problem 1: Circular Queue Using Array
+
+**Description**  
+A circular queue is implemented using an array.  
+The rear pointer wraps around to the beginning when the end of the array is reached.
+
+**Concepts Used**
+- Circular Queue
+- Front and Rear Pointer Logic
+- Modulo Arithmetic
+
+**Source Code**  
+[Day36/circular_queue_array.c](Day36/circular_queue_array.c)
+
+**Output Screenshot**
+
+![Program Output](Day36/circular_queue_array.png)
+
+---
+
+### Problem 2: Design Circular Deque (LeetCode)
+
+**Description**  
+A circular double-ended queue (deque) supports insertion and deletion from both ends.  
+The structure maintains constant-time operations using circular indexing.
+
+**Concepts Used**
+- Deque Data Structure
+- Circular Buffer
+- Array-based Implementation
+
+**Output Screenshot**
+
+![LeetCode Output](Day36/circular_deque.png)
+
+---
+
+## Day 37
+
+### Problem 1: Priority Queue Using Array
+
+**Description**  
+A priority queue is implemented using an array.  
+Elements with smaller values have higher priority and are removed first.
+
+**Concepts Used**
+- Priority Queue
+- Array Implementation
+- Minimum Element Selection
+
+**Source Code**  
+[Day37/priority_queue_array.c](Day37/priority_queue_array.c)
+
+**Output Screenshot**
+
+![Program Output](Day37/priority_queue_array.png)
+
+---
+
+### Problem 2: Kth Largest Element in a Stream (LeetCode)
+
+**Description**  
+This problem maintains the kth largest element in a continuously updating stream of numbers.  
+Each new element updates the sorted order and the kth largest value is returned.
+
+**Concepts Used**
+- Heap / Priority Queue Concept
+- Stream Processing
+- Dynamic Data Handling
+
+**Output Screenshot**
+
+![LeetCode Output](Day37/kth_largest_stream.png)
+
+---
