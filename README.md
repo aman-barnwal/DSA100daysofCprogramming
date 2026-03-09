@@ -1077,7 +1077,7 @@ Each corresponding digit is added with carry handling to form a new linked list.
 
 **Output Screenshot**
 
-![LeetCode Output](Day29/add_two_numbers.png)
+![LeetCode Output](Day29/add_two_number.png)
 
 ---
 
