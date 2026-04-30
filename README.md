@@ -2060,3 +2060,120 @@ Nodes are processed level by level from left to right.
 ![LeetCode Output](Day53/level_order_leetcode.png)
 
 ---
+
+## Day 54
+
+### Problem 1: Zigzag Level Order Traversal of Binary Tree
+
+**Description**  
+Performs zigzag (spiral) traversal of a binary tree.  
+Levels are printed alternately from left-to-right and right-to-left.
+
+**Concepts Used**
+- Binary Tree
+- Breadth First Search (BFS)
+- Level Order Traversal
+
+**Source Code**  
+[Day54/zigzag_traversal.c](Day54/zigzag_traversal.c)
+
+**Output Screenshot**
+
+![Program Output](Day54/zigzag_traversal.png)
+
+---
+
+### Problem 2: Binary Tree Zigzag Level Order Traversal (LeetCode)
+
+**Description**  
+Given a binary tree, return its zigzag level order traversal.  
+Each level alternates between left-to-right and right-to-left order.
+
+**Concepts Used**
+- Binary Tree
+- BFS Traversal
+- Queue
+
+**Output Screenshot**
+
+![LeetCode Output](Day54/zigzag_traversal_leetcode.png)
+
+---
+
+## Day 55
+
+### Problem 1: Right View of Binary Tree
+
+**Description**  
+Prints the nodes visible when the binary tree is viewed from the right side.  
+At each level, the rightmost node is selected.
+
+**Concepts Used**
+- Binary Tree
+- Breadth First Search (BFS)
+- Level Order Traversal
+
+**Source Code**  
+[Day55/right_view.c](Day55/right_view.c)
+
+**Output Screenshot**
+
+![Program Output](Day55/right_view.png)
+
+---
+
+### Problem 2: Binary Tree Right Side View (LeetCode)
+
+**Description**  
+Given a binary tree, return the values of nodes visible from the right side.  
+The result contains the last node of each level.
+
+**Concepts Used**
+- Binary Tree
+- BFS Traversal
+- Queue
+
+**Output Screenshot**
+
+![LeetCode Output](Day55/right_view_leetcode.png)
+
+---
+
+## Day 56
+
+### Problem 1: Check Symmetric Binary Tree
+
+**Description**  
+Checks whether a binary tree is symmetric around its center.  
+The left subtree is compared with the mirror of the right subtree.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Traversal
+
+**Source Code**  
+[Day56/symmetric_tree.c](Day56/symmetric_tree.c)
+
+**Output Screenshot**
+
+![Program Output](Day56/symmetric_tree.png)
+
+---
+
+### Problem 2: Symmetric Tree (LeetCode)
+
+**Description**  
+Given a binary tree, determine whether it is symmetric around its center.  
+Both recursive and iterative approaches can be used to verify symmetry.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- BFS (Queue)
+
+**Output Screenshot**
+
+![LeetCode Output](Day56/symmetric_tree_leetcode.png)
+
+---
