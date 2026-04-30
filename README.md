@@ -2411,3 +2411,159 @@ Uses graph traversal to check reachability of all nodes.
 ![LeetCode Output](Day62/keys_and_rooms_leetcode.png)
 
 ---
+
+## Day 63
+
+### Problem 1: DFS Traversal of Graph
+
+**Description**  
+Performs Depth First Search (DFS) traversal of a graph starting from a given source vertex.  
+The graph is represented using adjacency lists.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Recursion
+
+**Source Code**  
+[Day63/dfs_traversal.c](Day63/dfs_traversal.c)
+
+**Output Screenshot**
+
+![Program Output](Day63/dfs_traversal.png)
+
+---
+
+### Problem 2: Flood Fill (LeetCode)
+
+**Description**  
+Performs flood fill on a 2D grid starting from a given pixel.  
+All connected pixels with the same initial color are changed to a new color.
+
+**Concepts Used**
+- DFS Traversal
+- Matrix/Grid Processing
+- Recursion
+
+**Output Screenshot**
+
+![LeetCode Output](Day63/flood_fill_leetcode.png)
+
+---
+
+## Day 64
+
+### Problem 1: BFS Traversal of Graph
+
+**Description**  
+Performs Breadth First Search (BFS) traversal starting from a given source vertex.  
+Uses a queue to explore nodes level by level.
+
+**Concepts Used**
+- Graph Traversal
+- Breadth First Search (BFS)
+- Queue
+
+**Source Code**  
+[Day64/bfs_traversal.c](Day64/bfs_traversal.c)
+
+**Output Screenshot**
+
+![Program Output](Day64/bfs_traversal.png)
+
+---
+
+### Problem 2: Rotting Oranges (LeetCode)
+
+**Description**  
+Determines the minimum time required for all fresh oranges to become rotten.  
+Uses BFS to simulate spreading of rot level by level.
+
+**Concepts Used**
+- BFS Traversal
+- Grid Processing
+- Queue
+
+**Output Screenshot**
+
+![LeetCode Output](Day64/rotting_oranges_leetcode.png)
+
+---
+
+## Day 65
+
+### Problem 1: Detect Cycle in Undirected Graph (DFS)
+
+**Description**  
+Checks whether an undirected graph contains a cycle using Depth First Search.  
+Parent tracking is used to avoid considering the immediate parent as a cycle.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Parent Tracking
+
+**Source Code**  
+[Day65/detect_cycle_dfs.c](Day65/detect_cycle_dfs.c)
+
+**Output Screenshot**
+
+![Program Output](Day65/detect_cycle_dfs.png)
+
+---
+
+### Problem 2: Detect Cycle in Undirected Graph (GFG)
+
+**Description**  
+Given a graph represented using edge list, determine whether it contains a cycle.  
+The graph may contain multiple disconnected components.
+
+**Concepts Used**
+- Graph Traversal
+- DFS
+- Cycle Detection
+
+**Output Screenshot**
+
+![GFG Output](Day65/detect_cycle_gfg_output.png)
+
+---
+
+## Day 66
+
+### Problem 1: Detect Cycle in Directed Graph (DFS)
+
+**Description**  
+Detects whether a directed graph contains a cycle using DFS and recursion stack.  
+A cycle exists if a node is revisited while still in the recursion stack.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Recursion Stack
+
+**Source Code**  
+[Day66/detect_cycle_directed.c](Day66/detect_cycle_directed.c)
+
+**Output Screenshot**
+
+![Program Output](Day66/detect_cycle_directed.png)
+
+---
+
+### Problem 2: Course Schedule (LeetCode)
+
+**Description**  
+Determines whether all courses can be completed given prerequisite constraints.  
+The problem reduces to detecting a cycle in a directed graph.
+
+**Concepts Used**
+- Graph Representation
+- DFS
+- Cycle Detection (Directed Graph)
+
+**Output Screenshot**
+
+![LeetCode Output](Day66/course_schedule_leetcode.png)
+
+---
