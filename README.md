@@ -1398,3 +1398,81 @@ Each new element updates the sorted order and the kth largest value is returned.
 ![LeetCode Output](Day37/kth_largest_stream.png)
 
 ---
+
+## Day 38
+
+### Problem 1: Deque Operations Using Array
+
+**Description**  
+A deque (double-ended queue) is implemented using an array.  
+It supports insertion and deletion from both front and rear.
+
+**Concepts Used**
+- Deque
+- Array Implementation
+- Front and Rear Operations
+
+**Source Code**  
+[Day38/deque_operations.c](Day38/deque_operations.c)
+
+**Output Screenshot**
+
+![Program Output](Day38/deque_operations.png)
+
+---
+
+### Problem 2: Sliding Window Maximum (LeetCode)
+
+**Description**  
+Find the maximum element in every sliding window of size k in an array.  
+Efficiently solved using deque to maintain useful elements.
+
+**Concepts Used**
+- Sliding Window Technique
+- Deque
+- Optimization
+
+**Output Screenshot**
+
+![LeetCode Output](Day38/sliding_window_maximum.png)
+
+---
+
+## Day 39
+
+### Problem 1: Min Heap Implementation
+
+**Description**  
+A min heap is implemented using an array.  
+It supports insertion, extraction of minimum element, and peek operation.
+
+**Concepts Used**
+- Heap Data Structure
+- Priority Queue
+- Heapify Up and Down
+
+**Source Code**  
+[Day39/min_heap.c](Day39/min_heap.c)
+
+**Output Screenshot**
+
+![Program Output](Day39/min_heap.png)
+
+---
+
+### Problem 2: Frequency Based Problem (LeetCode)
+
+**Description**  
+This problem involves analyzing frequency of elements and processing them efficiently.  
+Typically solved using hashing or heap-based approaches.
+
+**Concepts Used**
+- Hashing
+- Frequency Counting
+- Heap / Priority Queue
+
+**Output Screenshot**
+
+![LeetCode Output](Day39/frequency_output.png)
+
+---
