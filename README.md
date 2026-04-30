@@ -3687,3 +3687,141 @@ Given meeting intervals, determine the minimum number of rooms required so that 
 ![Program Output](Day97/meeting_rooms.png)
 
 ---
+
+## Day 98
+
+### Problem 1: Merge Intervals
+
+**Description**  
+Merges all overlapping intervals into non-overlapping intervals covering the same range.
+
+**Concepts Used**
+- Sorting
+- Greedy Approach
+- Interval Merging
+
+**Approach**
+- Sort intervals by start time
+- Compare with last merged interval
+- Merge if overlapping, otherwise add new interval
+
+**Time Complexity**
+- O(n log n)
+
+**Source Code**  
+[Day98/merge_intervals.c](Day98/merge_intervals.c)
+
+**Output Screenshot**
+
+![Program Output](Day98/merge_intervals.png)
+
+---
+
+### Problem 2: Merge Intervals (LeetCode)
+
+**Description**  
+Returns merged non-overlapping intervals from given list.
+
+**Concepts Used**
+- Sorting
+- Greedy Strategy
+- Dynamic Memory Allocation
+
+**Output Screenshot**
+
+![LeetCode Output](Day98/merge_intervals_leetcode.png)
+
+---
+
+## Day 99
+
+### Problem 1: Car Fleet (Terminal)
+
+**Description**  
+Given positions and speeds of cars, determine how many fleets will reach the destination.
+
+**Concepts Used**
+- Sorting
+- Greedy Strategy
+- Time Calculation
+
+**Approach**
+- Compute time for each car to reach target
+- Sort cars by position (descending)
+- Traverse and count fleets:
+  - If current car takes more time → new fleet
+  - Else → merges into previous fleet
+
+**Time Complexity**
+- O(n log n)
+
+**Source Code**  
+[Day99/car_fleet.c](Day99/car_fleet.c)
+
+**Output Screenshot**
+
+![Program Output](Day99/car_fleet.png)
+
+---
+
+### Problem 2: Car Fleet (LeetCode)
+
+**Description**  
+Counts number of car fleets reaching the destination under given constraints.
+
+**Concepts Used**
+- Sorting
+- Greedy Logic
+- Floating Point Computation
+
+**Output Screenshot**
+
+![LeetCode Output](Day99/car_fleet_leetcode.png)
+
+---
+
+## Day 100
+
+### Problem 1: Count Smaller Elements on Right (Terminal)
+
+**Description**  
+For each element, counts how many smaller elements appear on its right side.
+
+**Concepts Used**
+- Merge Sort Modification
+- Divide and Conquer
+- Index Tracking
+
+**Approach**
+- Store value + original index
+- During merge:
+  - If left > right → count += remaining elements in right
+- Maintain mapping using indices
+
+**Time Complexity**
+- O(n log n)
+
+**Source Code**  
+[Day100/count_smaller_right.c](Day100/count_smaller_right.c)
+
+**Output Screenshot**
+
+![Program Output](Day100/count_smaller_right.png)
+
+---
+
+### Problem 2: Count of Smaller Numbers After Self (LeetCode)
+
+**Description**  
+Returns an array where each element represents count of smaller elements to its right.
+
+**Concepts Used**
+- Merge Sort Trick
+- Index Mapping
+- Efficient Counting
+
+**Output Screenshot**
+
+![LeetCode Output](Day100/count_smaller_leetcode.png)
+
+---
