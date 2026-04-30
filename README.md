@@ -3487,3 +3487,203 @@ Finds the kth largest element without fully sorting the array using QuickSelect.
 ![LeetCode Output](Day92/kth_largest_leetcode.png)
 
 ---
+
+## Day 93
+
+### Problem 1: Insertion Sort (Array)
+
+**Description**  
+Sorts an array using insertion sort.  
+Efficient for small or nearly sorted arrays and maintains stability.
+
+**Concepts Used**
+- Sorting Algorithms
+- Insertion Sort
+- Stable Sorting
+
+**Source Code**  
+[Day93/insertion_sort.c](Day93/insertion_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day93/insertion_sort.png)
+
+---
+
+### Problem 2: Insertion Sort on Linked List (LeetCode)
+
+**Description**  
+Sorts a singly linked list using insertion sort by placing each node in its correct position.
+
+**Concepts Used**
+- Linked Lists
+- Insertion Sort
+- Pointer Manipulation
+
+**Output Screenshot**
+
+![LeetCode Output](Day93/insertion_sort_list_leetcode.png)
+
+---
+
+## Day 94
+
+### Problem 1: Counting Sort
+
+**Description**  
+Sorts an array of non-negative integers using counting sort by building a frequency array and reconstructing the sorted array.
+
+**Concepts Used**
+- Counting Sort
+- Frequency Array
+- Prefix Sum Technique
+
+**Source Code**  
+[Day94/counting_sort.c](Day94/counting_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day94/counting_sort.png)
+
+---
+
+### Problem 2: Relative Sort Array (LeetCode)
+
+**Description**  
+Sorts one array based on the relative order defined by another array, and places remaining elements in ascending order.
+
+**Concepts Used**
+- Counting Sort
+- Frequency Mapping
+- Custom Sorting Logic
+
+**Output Screenshot**
+
+![LeetCode Output](Day94/relative_sort_array_leetcode.png)
+
+---
+
+## Day 95
+
+### Problem 1: Bucket Sort
+
+**Description**  
+Sorts real numbers in the range [0,1) using bucket sort.  
+Elements are distributed into buckets, sorted individually, and concatenated.
+
+**Concepts Used**
+- Bucket Sort
+- Linked List
+- Distribution Sorting
+
+**Source Code**  
+[Day95/bucket_sort.c](Day95/bucket_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day95/bucket_sort.png)
+
+---
+
+### Problem 2: Maximum Gap (LeetCode)
+
+**Description**  
+Finds the maximum difference between successive elements in sorted order using a linear-time bucket-based approach.
+
+**Concepts Used**
+- Bucket Sort Concept
+- Pigeonhole Principle
+- Linear Time Optimization
+
+**Output Screenshot**
+
+![LeetCode Output](Day95/maximum_gap_leetcode.png)
+
+---
+
+## Day 96
+
+### Problem 1: Count Inversions using Merge Sort
+
+**Description**  
+Counts the number of inversions in an array where a pair (i, j) is an inversion if i < j and arr[i] > arr[j].
+
+**Concepts Used**
+- Divide and Conquer
+- Merge Sort Modification
+- Counting Technique
+
+**Approach**
+- Split the array using merge sort
+- While merging, if left element > right element, count inversions
+- Add (mid - i + 1) to inversion count
+
+**Time Complexity**
+- O(n log n)
+
+**Source Code**  
+[Day96/count_inversions.c](Day96/count_inversions.c)
+
+**Output Screenshot**
+
+![Program Output](Day96/count_inversions.png)
+
+---
+
+### Problem 2: Reverse Pairs (LeetCode)
+
+**Description**  
+Counts the number of reverse pairs where nums[i] > 2 × nums[j] and i < j.
+
+**Concepts Used**
+- Modified Merge Sort
+- Two Pointer Technique
+- Overflow Handling (long long)
+
+**Approach**
+- Divide array using merge sort
+- Before merging, count valid pairs using two pointers
+- Use condition: nums[i] > 2 * nums[j]
+- Then merge sorted halves
+
+**Time Complexity**
+- O(n log n)
+
+**Source Code**  
+[Day96/reverse_pairs_leetcode.c](Day96/reverse_pairs_leetcode.c)
+
+**Output Screenshot**
+
+![LeetCode Output](Day96/reverse_pairs_leetcode.png)
+
+---
+
+## Day 97
+
+### Problem: Minimum Meeting Rooms
+
+**Description**  
+Given meeting intervals, determine the minimum number of rooms required so that no meetings overlap.
+
+**Concepts Used**
+- Greedy Algorithm
+- Sorting
+- Min Heap (Priority Queue)
+
+**Approach**
+- Sort meetings based on start time
+- Use a min-heap to track end times
+- If earliest ending meeting finishes before next starts → reuse room
+- Else → allocate new room
+
+**Time Complexity**
+- O(n log n)
+
+**Source Code**  
+[Day97/meeting_rooms.c](Day97/meeting_rooms.c)
+
+**Output Screenshot**
+
+![Program Output](Day97/meeting_rooms.png)
+
+---
