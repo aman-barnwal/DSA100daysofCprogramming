@@ -1476,3 +1476,81 @@ Typically solved using hashing or heap-based approaches.
 ![LeetCode Output](Day39/frequency_output.png)
 
 ---
+
+## Day 39
+
+### Problem 1: Min Heap Implementation
+
+**Description**  
+A min heap is implemented using an array.  
+It supports insertion, extraction of minimum element, and peek operation.
+
+**Concepts Used**
+- Heap Data Structure
+- Priority Queue
+- Heapify Up and Down
+
+**Source Code**  
+[Day39/min_heap.c](Day39/min_heap.c)
+
+**Output Screenshot**
+
+![Program Output](Day39/min_heap.png)
+
+---
+
+### Problem 2: Frequency Based Problem (LeetCode)
+
+**Description**  
+This problem involves analyzing frequency of elements and processing them efficiently.  
+Typically solved using hashing or heap-based approaches.
+
+**Concepts Used**
+- Hashing
+- Frequency Counting
+- Heap / Priority Queue
+
+**Output Screenshot**
+
+![LeetCode Output](Day39/frequency_output.png)
+
+---
+
+## Day 40
+
+### Problem 1: Heap Sort Implementation
+
+**Description**  
+Heap sort is implemented using a max heap.  
+The array is first converted into a heap and then sorted by extracting elements.
+
+**Concepts Used**
+- Heap Data Structure
+- Sorting Algorithms
+- Heapify Operation
+
+**Source Code**  
+[Day40/heap_sort.c](Day40/heap_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day40/heap_sort.png)
+
+---
+
+### Problem 2: Stack Based Problem (LeetCode)
+
+**Description**  
+This problem uses stack operations to process elements efficiently.  
+It typically involves pushing and popping elements based on conditions.
+
+**Concepts Used**
+- Stack
+- LIFO Principle
+- Conditional Processing
+
+**Output Screenshot**
+
+![LeetCode Output](Day40/stack_output.png)
+
+---
