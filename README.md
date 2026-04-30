@@ -1710,3 +1710,198 @@ Different traversal methods are applied to solve tree-based problems.
 ![LeetCode Output](Day44/tree_output.png)
 
 ---
+
+## Day 45
+
+### Problem 1: Height of Binary Tree
+
+**Description**  
+The height of a binary tree is calculated using recursion.  
+The maximum depth from root to leaf node is determined.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Height Calculation
+
+**Source Code**  
+[Day45/tree_height.c](Day45/tree_height.c)
+
+**Output Screenshot**
+
+![Program Output](Day45/tree_height.png)
+
+---
+
+### Problem 2: Binary Tree Problem (LeetCode)
+
+**Description**  
+This problem involves analyzing properties of a binary tree structure.  
+It typically focuses on traversal or depth-based calculations.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Processing
+
+**Output Screenshot**
+
+![LeetCode Output](Day45/tree_output.png)
+
+---
+
+## Day 46
+
+### Problem 1: Level Order Traversal
+
+**Description**  
+A binary tree is constructed from array input.  
+Level order traversal is performed using a queue.
+
+**Concepts Used**
+- Binary Tree
+- Queue (BFS Traversal)
+- Array to Tree Conversion
+
+**Source Code**  
+[Day46/level_order_traversal.c](Day46/level_order_traversal.c)
+
+**Output Screenshot**
+
+![Program Output](Day46/level_order_traversal_output.png)
+
+---
+
+### Problem 2: Binary Tree Level Order Traversal (LeetCode)
+
+**Description**  
+Given a binary tree, return its level order traversal.  
+Nodes are processed level by level from left to right.
+
+**Concepts Used**
+- Binary Tree
+- Breadth First Search (BFS)
+- Queue
+
+**Output Screenshot**
+
+![LeetCode Output](Day46/level_order_traversal.png)
+
+---
+
+## Day 47
+
+### Problem 1: Height of Binary Tree
+
+**Description**  
+The height of a binary tree is calculated using recursion.  
+It determines the maximum depth from root to the farthest leaf node.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Depth Calculation
+
+**Source Code**  
+[Day47/tree_height.c](Day47/tree_height.c)
+
+**Output Screenshot**
+
+![Program Output](Day47/tree_height.png)
+
+---
+
+### Problem 2: Maximum Depth of Binary Tree (LeetCode)
+
+**Description**  
+Given a binary tree, return its maximum depth.  
+The depth is the number of nodes along the longest path from root to leaf.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Traversal
+
+**Output Screenshot**
+
+![LeetCode Output](Day47/tree_height_leetcode.png)
+
+---
+
+## Day 48
+
+### Problem 1: Count Leaf Nodes
+
+**Description**  
+Counts the number of leaf nodes in a binary tree.  
+A leaf node is defined as a node with no children.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Traversal
+
+**Source Code**  
+[Day48/count_leaf_nodes.c](Day48/count_leaf_nodes.c)
+
+**Output Screenshot**
+
+![Program Output](Day48/count_leaf_nodes.png)
+
+---
+
+### Problem 2: Count Leaf Nodes (LeetCode)
+
+**Description**  
+Given a binary tree, return the number of leaf nodes.  
+Leaf nodes are nodes that do not have left or right children.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Traversal
+
+**Output Screenshot**
+
+![LeetCode Output](Day48/count_leaf_nodes_leetcode.png)
+
+---
+
+## Day 49
+
+### Problem 1: BST Insert
+
+**Description**  
+Elements are inserted into a Binary Search Tree following BST rules.  
+Inorder traversal is used to verify correct placement.
+
+**Concepts Used**
+- Binary Search Tree
+- Recursion
+- Tree Traversal
+
+**Source Code**  
+[Day49/bst_insert.c](Day49/bst_insert.c)
+
+**Output Screenshot**
+
+![Program Output](Day49/bst_insert.png)
+
+---
+
+### Problem 2: Insert into a Binary Search Tree (LeetCode)
+
+**Description**  
+Given the root of a BST and a value, insert the value into the tree.  
+The BST property is maintained after insertion.
+
+**Concepts Used**
+- Binary Search Tree
+- Recursion
+- Tree Insertion
+
+**Output Screenshot**
+
+![LeetCode Output](Day49/bst_insert_leetcode.png)
+
+---
