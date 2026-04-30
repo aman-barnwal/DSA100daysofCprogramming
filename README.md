@@ -2567,3 +2567,123 @@ The problem reduces to detecting a cycle in a directed graph.
 ![LeetCode Output](Day66/course_schedule_leetcode.png)
 
 ---
+
+## Day 67
+
+### Problem 1: Topological Sort using DFS
+
+**Description**  
+Prints the topological ordering of a Directed Acyclic Graph (DAG) using DFS.  
+Nodes are pushed to a stack after visiting all their neighbors.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Topological Sorting
+
+**Source Code**  
+[Day67/topological_sort_dfs.c](Day67/topological_sort_dfs.c)
+
+**Output Screenshot**
+
+![Program Output](Day67/topological_sort_dfs.png)
+
+---
+
+### Problem 2: Course Schedule II (LeetCode)
+
+**Description**  
+Finds a valid order of courses given prerequisite constraints.  
+Uses topological sorting and cycle detection in a directed graph.
+
+**Concepts Used**
+- Graph Representation
+- DFS
+- Topological Sort
+- Cycle Detection
+
+**Output Screenshot**
+
+![LeetCode Output](Day67/course_schedule2_leetcode.png)
+
+---
+
+## Day 68
+
+### Problem 1: Topological Sort using Kahn’s Algorithm
+
+**Description**  
+Implements topological sorting of a Directed Acyclic Graph (DAG) using in-degree array and queue.  
+Nodes with zero in-degree are processed first.
+
+**Concepts Used**
+- Graph Traversal
+- Topological Sorting
+- Queue
+- In-degree Array
+
+**Source Code**  
+[Day68/kahn_topo.c](Day68/kahn_topo.c)
+
+**Output Screenshot**
+
+![Program Output](Day68/kahn_topo.png)
+
+---
+
+### Problem 2: Alien Dictionary (LeetCode)
+
+**Description**  
+Determines the order of characters in an alien language using given sorted words.  
+Constructs a graph of character precedence and applies topological sorting.
+
+**Concepts Used**
+- Graph Representation
+- Topological Sort
+- BFS (Kahn’s Algorithm)
+- Cycle Detection
+
+**Output Screenshot**
+
+![LeetCode Output](Day68/alien_dictionary_leetcode.png)
+
+---
+
+## Day 69
+
+### Problem 1: Shortest Path using Dijkstra’s Algorithm
+
+**Description**  
+Computes the shortest path from a source node in a weighted graph with non-negative edges.  
+Uses Dijkstra’s algorithm to update minimum distances.
+
+**Concepts Used**
+- Graph Algorithms
+- Dijkstra’s Algorithm
+- Greedy Approach
+
+**Source Code**  
+[Day69/dijkstra_pq.c](Day69/dijkstra_pq.c)
+
+**Output Screenshot**
+
+![Program Output](Day69/dijkstra_pq.png)
+
+---
+
+### Problem 2: Network Delay Time (LeetCode)
+
+**Description**  
+Finds the minimum time required for all nodes to receive a signal sent from a source node.  
+Uses shortest path logic similar to Dijkstra’s algorithm.
+
+**Concepts Used**
+- Graph Representation
+- Dijkstra’s Algorithm
+- Shortest Path
+
+**Output Screenshot**
+
+![LeetCode Output](Day69/network_delay_time_leetcode.png)
+
+---
