@@ -1554,3 +1554,159 @@ It typically involves pushing and popping elements based on conditions.
 ![LeetCode Output](Day40/stack_output.png)
 
 ---
+
+## Day 41
+
+### Problem 1: Queue Implementation Using Linked List
+
+**Description**  
+A queue is implemented using a linked list.  
+It supports enqueue and dequeue operations following FIFO order.
+
+**Concepts Used**
+- Queue
+- Linked List
+- Dynamic Memory Allocation
+
+**Source Code**  
+[Day41/queue_linked_list.c](Day41/queue_linked_list.c)
+
+**Output Screenshot**
+
+![Program Output](Day41/queue_linked_list.png)
+
+---
+
+### Problem 2: Scheduling Based Problem (LeetCode)
+
+**Description**  
+This problem involves scheduling tasks efficiently based on given conditions.  
+It is typically solved using queue or greedy approaches.
+
+**Concepts Used**
+- Scheduling
+- Queue / Greedy Approach
+- Optimization
+
+**Output Screenshot**
+
+![LeetCode Output](Day41/scheduling_output.png)
+
+---
+
+## Day 42
+
+### Problem 1: Reverse Queue Using Stack
+
+**Description**  
+A queue is reversed using a stack.  
+Elements are dequeued from the queue and pushed onto the stack, then printed in reverse order.
+
+**Concepts Used**
+- Queue
+- Stack
+- LIFO and FIFO Concepts
+
+**Source Code**  
+[Day42/reverse_queue.c](Day42/reverse_queue.c)
+
+**Output Screenshot**
+
+![Program Output](Day42/reverse_queue.png)
+
+---
+
+### Problem 2: Median Based Problem (LeetCode)
+
+**Description**  
+This problem involves finding the median efficiently from a data stream or dataset.  
+It is typically solved using heaps or balanced data structures.
+
+**Concepts Used**
+- Heap
+- Median Calculation
+- Dynamic Data Handling
+
+**Output Screenshot**
+
+![LeetCode Output](Day42/median_output.png)
+
+---
+
+## Day 43
+
+### Problem 1: Build Binary Tree and Inorder Traversal
+
+**Description**  
+A binary tree is constructed from an array representation.  
+Inorder traversal of the tree is then performed and printed.
+
+**Concepts Used**
+- Binary Tree
+- Tree Construction from Array
+- Inorder Traversal
+
+**Source Code**  
+[Day43/build_tree_inorder.c](Day43/build_tree_inorder.c)
+
+**Output Screenshot**
+
+![Program Output](Day43/build_tree_inorder.png)
+
+---
+
+### Problem 2: Binary Tree Problem (LeetCode)
+
+**Description**  
+This problem involves operations on a binary tree structure.  
+It focuses on traversal or processing of tree nodes efficiently.
+
+**Concepts Used**
+- Binary Tree
+- Tree Traversal
+- Recursion
+
+**Output Screenshot**
+
+![LeetCode Output](Day43/tree_output.png)
+
+---
+
+## Day 44
+
+### Problem 1: Binary Tree Traversals
+
+**Description**  
+A binary tree is constructed from an array and traversed in different orders.  
+Inorder, preorder, and postorder traversals are performed.
+
+**Concepts Used**
+- Binary Tree
+- Inorder Traversal
+- Preorder and Postorder Traversal
+
+**Source Code**  
+[Day44/tree_traversals.c](Day44/tree_traversals.c)
+
+**Output Screenshot**
+
+![Program Output](Day44/tree_traversals.png)
+
+---
+
+### Problem 2: Binary Tree Problem (LeetCode)
+
+**Description**  
+This problem focuses on processing binary tree data using traversal techniques.  
+Different traversal methods are applied to solve tree-based problems.
+
+**Concepts Used**
+- Binary Tree
+- Tree Traversal
+- Recursion
+
+**Output Screenshot**
+
+![LeetCode Output](Day44/tree_output.png)
+
+---
