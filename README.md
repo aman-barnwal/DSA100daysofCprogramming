@@ -2177,3 +2177,237 @@ Both recursive and iterative approaches can be used to verify symmetry.
 ![LeetCode Output](Day56/symmetric_tree_leetcode.png)
 
 ---
+
+## Day 57
+
+### Problem 1: Mirror Binary Tree
+
+**Description**  
+Converts a binary tree into its mirror image by swapping left and right children at every node.  
+Inorder traversal of the mirrored tree is printed.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Traversal
+
+**Source Code**  
+[Day57/mirror_tree.c](Day57/mirror_tree.c)
+
+**Output Screenshot**
+
+![Program Output](Day57/mirror_tree.png)
+
+---
+
+### Problem 2: Flatten Binary Tree to Linked List (LeetCode)
+
+**Description**  
+Transforms a binary tree into a linked list in-place following preorder traversal.  
+Each node’s right pointer points to the next node, and left pointer becomes NULL.
+
+**Concepts Used**
+- Binary Tree
+- Preorder Traversal
+- In-place Transformation
+
+**Output Screenshot**
+
+![LeetCode Output](Day57/flatten_tree_leetcode.png)
+
+---
+
+## Day 58
+
+### Problem 1: Construct Binary Tree from Preorder and Inorder
+
+**Description**  
+Constructs a binary tree using given preorder and inorder traversals.  
+The constructed tree is then printed using postorder traversal.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Construction
+
+**Source Code**  
+[Day58/build_tree_pre_in.c](Day58/build_tree_pre_in.c)
+
+**Output Screenshot**
+
+![Program Output](Day58/build_tree_pre_in.png)
+
+---
+
+### Problem 2: Construct Binary Tree from Preorder and Inorder Traversal (LeetCode)
+
+**Description**  
+Given preorder and inorder traversal arrays, construct and return the binary tree.  
+Preorder identifies the root, and inorder divides the tree into left and right subtrees.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Construction
+
+**Output Screenshot**
+
+![LeetCode Output](Day58/build_tree_pre_in_leetcode.png)
+
+---
+
+## Day 59
+
+### Problem 1: Construct Binary Tree from Inorder and Postorder
+
+**Description**  
+Constructs a binary tree using given inorder and postorder traversals.  
+The constructed tree is then printed using preorder traversal.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Construction
+
+**Source Code**  
+[Day59/build_tree_in_post.c](Day59/build_tree_in_post.c)
+
+**Output Screenshot**
+
+![Program Output](Day59/build_tree_in_post.png)
+
+---
+
+### Problem 2: Construct Binary Tree from Inorder and Postorder Traversal (LeetCode)
+
+**Description**  
+Given inorder and postorder traversal arrays, construct and return the binary tree.  
+Postorder identifies the root, and inorder divides the tree into left and right subtrees.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Construction
+
+**Output Screenshot**
+
+![LeetCode Output](Day59/build_tree_in_post_leetcode.png)
+
+---
+
+## Day 60
+
+### Problem 1: Check Min-Heap Property in Binary Tree
+
+**Description**  
+Checks whether a given binary tree satisfies the Min-Heap property.  
+Each parent node must be smaller than its children.
+
+**Concepts Used**
+- Binary Tree
+- Array Representation
+- Heap Property
+
+**Source Code**  
+[Day60/min_heap_check.c](Day60/min_heap_check.c)
+
+**Output Screenshot**
+
+![Program Output](Day60/min_heap_check.png)
+
+---
+
+### Problem 2: Binary Tree Cameras (LeetCode)
+
+**Description**  
+Given a binary tree, determine the minimum number of cameras required to monitor all nodes.  
+Each camera covers its parent, itself, and its immediate children.
+
+**Concepts Used**
+- Binary Tree
+- DFS Traversal
+- Greedy Approach
+
+**Output Screenshot**
+
+![LeetCode Output](Day60/binary_tree_cameras_leetcode.png)
+
+---
+
+## Day 61
+
+### Problem 1: Adjacency Matrix Representation of Graph
+
+**Description**  
+Constructs a graph using adjacency matrix representation.  
+Edges are stored in a 2D matrix indicating connections between vertices.
+
+**Concepts Used**
+- Graph Representation
+- Adjacency Matrix
+- Undirected Graph
+
+**Source Code**  
+[Day61/adjacency_matrix.c](Day61/adjacency_matrix.c)
+
+**Output Screenshot**
+
+![Program Output](Day61/adjacency_matrix.png)
+
+---
+
+### Problem 2: Number of Provinces (LeetCode)
+
+**Description**  
+Given a matrix representing connections between cities, determine the number of provinces.  
+A province is a group of directly or indirectly connected cities.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Connected Components
+
+**Output Screenshot**
+
+![LeetCode Output](Day61/number_of_provinces_leetcode.png)
+
+---
+
+## Day 62
+
+### Problem 1: Adjacency List Representation of Graph
+
+**Description**  
+Constructs a graph using adjacency list representation.  
+Each vertex stores a list of its adjacent vertices using linked lists.
+
+**Concepts Used**
+- Graph Representation
+- Adjacency List
+- Linked List
+
+**Source Code**  
+[Day62/adjacency_list.c](Day62/adjacency_list.c)
+
+**Output Screenshot**
+
+![Program Output](Day62/adjacency_list.png)
+
+---
+
+### Problem 2: Keys and Rooms (LeetCode)
+
+**Description**  
+Determines whether all rooms can be visited starting from room 0.  
+Uses graph traversal to check reachability of all nodes.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Visited Array
+
+**Output Screenshot**
+
+![LeetCode Output](Day62/keys_and_rooms_leetcode.png)
+
+---
