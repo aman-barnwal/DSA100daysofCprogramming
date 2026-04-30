@@ -2842,3 +2842,421 @@ Finds the number of connected components (provinces) in a graph represented by a
 ![LeetCode Output](Day74/number_of_provinces_leetcode.png)
 
 ---
+
+## Day 75
+
+### Problem 1: Longest Subarray with Zero Sum
+
+**Description**  
+Finds the length of the longest contiguous subarray whose sum is zero.  
+Uses prefix sum technique with hashing.
+
+**Concepts Used**
+- Arrays
+- Prefix Sum
+- Hashing
+
+**Source Code**  
+[Day75/longest_zero_subarray.c](Day75/longest_zero_subarray.c)
+
+**Output Screenshot**
+
+![Program Output](Day75/longest_zero_subarray.png)
+
+---
+
+### Problem 2: Is Graph Bipartite? (LeetCode)
+
+**Description**  
+Checks whether a graph can be divided into two sets such that no adjacent nodes share the same set.
+
+**Concepts Used**
+- Graph Traversal
+- DFS
+- Coloring Technique
+
+**Output Screenshot**
+
+![LeetCode Output](Day75/bipartite_graph_leetcode.png)
+
+---
+
+## Day 76
+
+### Problem 1: Number of Connected Components
+
+**Description**  
+Counts the number of connected components in an undirected graph using DFS traversal.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Connected Components
+
+**Source Code**  
+[Day76/connected_components.c](Day76/connected_components.c)
+
+**Output Screenshot**
+
+![Program Output](Day76/connected_components.png)
+
+---
+
+### Problem 2: Clone Graph (LeetCode)
+
+**Description**  
+Creates a deep copy of a connected undirected graph.  
+Each node and its neighbors are duplicated using DFS.
+
+**Concepts Used**
+- Graph Traversal
+- DFS
+- Deep Copy
+
+**Output Screenshot**
+
+![LeetCode Output](Day76/clone_graph_leetcode.png)
+
+---
+
+## Day 77
+
+### Problem 1: Check Graph Connectivity
+
+**Description**  
+Determines whether all nodes in a graph are connected using DFS traversal.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Connectivity
+
+**Source Code**  
+[Day77/check_connected.c](Day77/check_connected.c)
+
+**Output Screenshot**
+
+![Program Output](Day77/check_connected.png)
+
+---
+
+### Problem 2: Critical Connections in a Network (LeetCode)
+
+**Description**  
+Finds all critical connections (bridges) in a network.  
+Uses Tarjan’s Algorithm with discovery and low times.
+
+**Concepts Used**
+- Graph Algorithms
+- DFS
+- Tarjan’s Algorithm
+- Bridges Detection
+
+**Output Screenshot**
+
+![LeetCode Output](Day77/critical_connections_leetcode.png)
+
+---
+
+## Day 78
+
+### Problem 1: Minimum Spanning Tree using Prim’s Algorithm
+
+**Description**  
+Computes the total weight of the Minimum Spanning Tree (MST) for a weighted undirected graph using Prim’s algorithm.
+
+**Concepts Used**
+- Graph Algorithms
+- Minimum Spanning Tree (MST)
+- Prim’s Algorithm
+
+**Source Code**  
+[Day78/prim_mst.c](Day78/prim_mst.c)
+
+**Output Screenshot**
+
+![Program Output](Day78/prim_mst.png)
+
+---
+
+### Problem 2: Articulation Points (GFG)
+
+**Description**  
+Finds all articulation points (cut vertices) in a graph.  
+A vertex is an articulation point if removing it increases the number of connected components.
+
+**Concepts Used**
+- Graph Traversal
+- DFS
+- Tarjan’s Algorithm
+- Low & Discovery Time
+
+**Output Screenshot**
+
+![GFG Output](Day78/articulation_points_gfg.png)
+
+---
+
+## Day 79
+
+### Problem 1: Shortest Path using Dijkstra’s Algorithm
+
+**Description**  
+Computes shortest distances from a source vertex in a weighted graph with non-negative weights.
+
+**Concepts Used**
+- Graph Algorithms
+- Dijkstra’s Algorithm
+- Greedy Approach
+
+**Source Code**  
+[Day79/dijkstra_priority_queue.c](Day79/dijkstra_priority_queue.c)
+
+**Output Screenshot**
+
+![Program Output](Day79/dijkstra_priority_queue.png)
+
+---
+
+### Problem 2: Strongly Connected Components (GFG)
+
+**Description**  
+Finds the number of strongly connected components in a directed graph using Kosaraju’s algorithm.
+
+**Concepts Used**
+- Graph Traversal
+- DFS
+- Kosaraju’s Algorithm
+- Graph Transpose
+
+**Output Screenshot**
+
+![GFG Output](Day79/strongly_connected_components_gfg.png)
+
+---
+
+## Day 80
+
+### Problem 1: Floyd-Warshall Algorithm
+
+**Description**  
+Computes shortest paths between all pairs of vertices in a weighted graph.  
+Handles both positive and negative weights (no negative cycles).
+
+**Concepts Used**
+- Graph Algorithms
+- Dynamic Programming
+- Floyd-Warshall Algorithm
+
+**Source Code**  
+[Day80/floyd_warshall.c](Day80/floyd_warshall.c)
+
+**Output Screenshot**
+
+![Program Output](Day80/floyd_warshall.png)
+
+---
+
+### Problem 2: Find the City With the Smallest Number of Neighbors (LeetCode)
+
+**Description**  
+Finds the city with the smallest number of reachable neighbors within a distance threshold.  
+Uses Floyd-Warshall to compute all-pairs shortest paths.
+
+**Concepts Used**
+- Graph Algorithms
+- Floyd-Warshall Algorithm
+- Shortest Paths
+
+**Output Screenshot**
+
+![LeetCode Output](Day80/find_city_leetcode.png)
+
+---
+
+## Day 81
+
+### Problem 1: Bubble Sort
+
+**Description**  
+Implements Bubble Sort to sort an array in ascending order by repeatedly swapping adjacent elements.
+
+**Concepts Used**
+- Sorting Algorithms
+- Bubble Sort
+- Arrays
+
+**Source Code**  
+[Day81/bubble_sort.c](Day81/bubble_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day81/bubble_sort.png)
+
+---
+
+### Problem 2: Binary Search (LeetCode)
+
+**Description**  
+Searches for a target value in a sorted array using Binary Search with O(log n) complexity.
+
+**Concepts Used**
+- Searching Algorithms
+- Binary Search
+- Divide and Conquer
+
+**Output Screenshot**
+
+![LeetCode Output](Day81/binary_search_leetcode.png)
+
+---
+
+## Day 82
+
+### Problem 1: Lower Bound and Upper Bound using Binary Search
+
+**Description**  
+Implements lower bound and upper bound operations using binary search on a sorted array.
+
+**Concepts Used**
+- Binary Search
+- Arrays
+- Searching Algorithms
+
+**Source Code**  
+[Day82/lower_upper_bound.c](Day82/lower_upper_bound.c)
+
+**Output Screenshot**
+
+![Program Output](Day82/lower_upper_bound.png)
+
+---
+
+### Problem 2: Search Insert Position (LeetCode)
+
+**Description**  
+Finds the index where a target value should be inserted in a sorted array.
+
+**Concepts Used**
+- Binary Search
+- Arrays
+- O(log n) Algorithm
+
+**Output Screenshot**
+
+![LeetCode Output](Day82/search_insert_position_leetcode.png)
+
+---
+
+## Day 83
+
+### Problem 1: Selection Sort
+
+**Description**  
+Implements Selection Sort to sort an array by repeatedly selecting the minimum element and placing it at the correct position.
+
+**Concepts Used**
+- Sorting Algorithms
+- Selection Sort
+- Arrays
+
+**Source Code**  
+[Day83/selection_sort.c](Day83/selection_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day83/selection_sort.png)
+
+---
+
+### Problem 2: Search in Rotated Sorted Array (LeetCode)
+
+**Description**  
+Finds the index of a target in a rotated sorted array using modified binary search.
+
+**Concepts Used**
+- Binary Search
+- Arrays
+- Divide and Conquer
+
+**Output Screenshot**
+
+![LeetCode Output](Day83/search_rotated_array_leetcode.png)
+
+---
+
+## Day 84
+
+### Problem 1: Insertion Sort
+
+**Description**  
+Implements Insertion Sort to arrange elements in ascending order.  
+Each element is placed in its correct position within the sorted portion of the array.
+
+**Concepts Used**
+- Sorting Algorithms
+- Insertion Sort
+- Arrays
+
+**Source Code**  
+[Day84/insertion_sort.c](Day84/insertion_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day84/insertion_sort.png)
+
+---
+
+### Problem 2: Find Peak Element (LeetCode)
+
+**Description**  
+Finds a peak element in an array using binary search in O(log n) time.  
+A peak element is strictly greater than its neighbors.
+
+**Concepts Used**
+- Binary Search
+- Divide and Conquer
+- Arrays
+
+**Output Screenshot**
+
+![LeetCode Output](Day84/find_peak_element_leetcode.png)
+
+---
+
+## Day 85
+
+### Problem 1: Merge Sort
+
+**Description**  
+Implements Merge Sort to sort an array using divide and conquer approach.
+
+**Concepts Used**
+- Sorting Algorithms
+- Divide and Conquer
+- Merge Sort
+
+**Source Code**  
+[Day85/merge_sort.c](Day85/merge_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day85/merge_sort.png)
+
+---
+
+### Problem 2: Find Minimum in Rotated Sorted Array (LeetCode)
+
+**Description**  
+Finds the minimum element in a rotated sorted array using binary search in O(log n).
+
+**Concepts Used**
+- Binary Search
+- Arrays
+- Divide and Conquer
+
+**Output Screenshot**
+
+![LeetCode Output](Day85/find_min_rotated_array_leetcode.png)
+
+---
