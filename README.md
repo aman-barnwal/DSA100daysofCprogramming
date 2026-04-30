@@ -1905,3 +1905,158 @@ The BST property is maintained after insertion.
 ![LeetCode Output](Day49/bst_insert_leetcode.png)
 
 ---
+
+## Day 50
+
+### Problem 1: BST Search
+
+**Description**  
+Search for a given value in a Binary Search Tree.  
+Returns 1 if the value is found, otherwise returns 0.
+
+**Concepts Used**
+- Binary Search Tree
+- Recursion
+- Search Operation
+
+**Source Code**  
+[Day50/bst_search.c](Day50/bst_search.c)
+
+**Output Screenshot**
+
+![Program Output](Day50/bst_search.png)
+
+---
+
+### Problem 2: Search in a Binary Search Tree (LeetCode)
+
+**Description**  
+Given the root of a BST and a value, return the node containing the value.  
+If the value does not exist, return NULL.
+
+**Concepts Used**
+- Binary Search Tree
+- Recursion
+- Tree Traversal
+
+**Output Screenshot**
+
+![LeetCode Output](Day50/bst_search_leetcode.png)
+
+---
+
+## Day 51
+
+### Problem 1: Lowest Common Ancestor in BST
+
+**Description**  
+Finds the lowest common ancestor of two nodes in a binary search tree.  
+The LCA is the lowest node that has both nodes as descendants.
+
+**Concepts Used**
+- Binary Search Tree
+- Recursion
+- Tree Traversal
+
+**Source Code**  
+[Day51/bst_lca.c](Day51/bst_lca.c)
+
+**Output Screenshot**
+
+![Program Output](Day51/bst_lca.png)
+
+---
+
+### Problem 2: Lowest Common Ancestor of a BST (LeetCode)
+
+**Description**  
+Given a BST and two nodes, return their lowest common ancestor.  
+The BST property is used to efficiently determine the ancestor.
+
+**Concepts Used**
+- Binary Search Tree
+- Recursion
+- Tree Traversal
+
+**Output Screenshot**
+
+![LeetCode Output](Day51/bst_lca_leetcode.png)
+
+
+## Day 52
+
+### Problem 1: Lowest Common Ancestor in Binary Tree
+
+**Description**  
+Finds the lowest common ancestor of two nodes in a binary tree.  
+The LCA is the lowest node that has both nodes as descendants.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Traversal
+
+**Source Code**  
+[Day52/binary_tree_lca.c](Day52/binary_tree_lca.c)
+
+**Output Screenshot**
+
+![Program Output](Day52/binary_tree_lca.png)
+
+---
+
+### Problem 2: Lowest Common Ancestor of a Binary Tree (LeetCode)
+
+**Description**  
+Given a binary tree and two nodes, return their lowest common ancestor.  
+The solution works without using BST properties.
+
+**Concepts Used**
+- Binary Tree
+- Recursion
+- Tree Traversal
+
+**Output Screenshot**
+
+![LeetCode Output](Day52/binary_tree_lca_leetcode.png)
+
+---
+
+## Day 53
+
+### Problem 1: Vertical Order Traversal of Binary Tree
+
+**Description**  
+Prints the vertical order traversal of a binary tree.  
+Nodes are grouped based on their horizontal distance from the root.
+
+**Concepts Used**
+- Binary Tree
+- Breadth First Search (BFS)
+- Horizontal Distance Mapping
+
+**Source Code**  
+[Day53/vertical_order.c](Day53/vertical_order.c)
+
+**Output Screenshot**
+
+![Program Output](Day53/vertical_order.png)
+
+---
+
+### Problem 2: Binary Tree Level Order Traversal (LeetCode)
+
+**Description**  
+Given a binary tree, return its level order traversal.  
+Nodes are processed level by level from left to right.
+
+**Concepts Used**
+- Binary Tree
+- BFS Traversal
+- Queue
+
+**Output Screenshot**
+
+![LeetCode Output](Day53/level_order_leetcode.png)
+
+---
