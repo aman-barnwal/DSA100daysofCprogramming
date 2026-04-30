@@ -2687,3 +2687,158 @@ Uses shortest path logic similar to Dijkstra’s algorithm.
 ![LeetCode Output](Day69/network_delay_time_leetcode.png)
 
 ---
+
+## Day 71
+
+### Problem 1: Hash Table using Quadratic Probing
+
+**Description**  
+Implements a hash table with quadratic probing for collision resolution.  
+Uses formula h(k, i) = (h(k) + i²) % m.
+
+**Concepts Used**
+- Hashing
+- Collision Resolution
+- Quadratic Probing
+
+**Source Code**  
+[Day71/quadratic_probing.c](Day71/quadratic_probing.c)
+
+**Output Screenshot**
+
+![Program Output](Day71/quadratic_probing.png)
+
+---
+
+### Problem 2: Minimum Cost to Connect Points (LeetCode)
+
+**Description**  
+Finds the minimum cost to connect all points using Manhattan distance.  
+Uses Prim’s algorithm for Minimum Spanning Tree.
+
+**Concepts Used**
+- Graph Algorithms
+- Minimum Spanning Tree (MST)
+- Prim’s Algorithm
+
+**Output Screenshot**
+
+![LeetCode Output](Day71/min_cost_connect_points_leetcode.png)
+
+---
+
+## Day 72
+
+### Problem 1: First Repeated Character in String
+
+**Description**  
+Finds the first repeated character in a string based on the earliest second occurrence.  
+If no character repeats, returns -1.
+
+**Concepts Used**
+- Strings
+- Frequency Array
+- Hashing
+
+**Source Code**  
+[Day72/first_repeated_char.c](Day72/first_repeated_char.c)
+
+**Output Screenshot**
+
+![Program Output](Day72/first_repeated_char.png)
+
+---
+
+### Problem 2: Travelling Salesman Problem (GFG)
+
+**Description**  
+Finds the minimum cost to visit all cities exactly once and return to the starting city.  
+Uses recursion and backtracking.
+
+**Concepts Used**
+- Graph Algorithms
+- Backtracking
+- Recursion
+
+**Output Screenshot**
+
+![GFG Output](Day72/tsp_gfg.png)
+
+---
+
+## Day 73
+
+### Problem 1: First Non-Repeating Character
+
+**Description**  
+Finds the first character in a string that does not repeat.  
+If all characters repeat, returns '$'.
+
+**Concepts Used**
+- Strings
+- Frequency Array
+- Hashing
+
+**Source Code**  
+[Day73/first_non_repeating_char.c](Day73/first_non_repeating_char.c)
+
+**Output Screenshot**
+
+![Program Output](Day73/first_non_repeating_char.png)
+
+---
+
+### Problem 2: Redundant Connection (LeetCode)
+
+**Description**  
+Finds an edge that can be removed to make the graph a tree.  
+Uses Union-Find (Disjoint Set) to detect cycles.
+
+**Concepts Used**
+- Graph Algorithms
+- Union-Find
+- Cycle Detection
+
+**Output Screenshot**
+
+![LeetCode Output](Day73/redundant_connection_leetcode.png)
+
+---
+
+## Day 74
+
+### Problem 1: Candidate with Maximum Votes
+
+**Description**  
+Determines the candidate who received the highest number of votes.  
+In case of a tie, the lexicographically smallest name is chosen.
+
+**Concepts Used**
+- Strings
+- Frequency Counting
+- Comparison Logic
+
+**Source Code**  
+[Day74/max_votes.c](Day74/max_votes.c)
+
+**Output Screenshot**
+
+![Program Output](Day74/max_votes.png)
+
+---
+
+### Problem 2: Number of Provinces (LeetCode)
+
+**Description**  
+Finds the number of connected components (provinces) in a graph represented by an adjacency matrix.
+
+**Concepts Used**
+- Graph Traversal
+- Depth First Search (DFS)
+- Connected Components
+
+**Output Screenshot**
+
+![LeetCode Output](Day74/number_of_provinces_leetcode.png)
+
+---
