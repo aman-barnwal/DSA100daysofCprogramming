@@ -3260,3 +3260,230 @@ Finds the minimum element in a rotated sorted array using binary search in O(log
 ![LeetCode Output](Day85/find_min_rotated_array_leetcode.png)
 
 ---
+
+## Day 86
+
+### Problem 1: Integer Square Root using Binary Search
+
+**Description**  
+Finds the integer square root of a non-negative number using binary search.  
+Returns the largest integer whose square is less than or equal to the given number.
+
+**Concepts Used**
+- Binary Search
+- Mathematical Computation
+- Efficient Searching
+
+**Source Code**  
+[Day86/integer_sqrt.c](Day86/integer_sqrt.c)
+
+**Output Screenshot**
+
+![Program Output](Day86/integer_sqrt.png)
+
+---
+
+### Problem 2: Sqrt(x) (LeetCode)
+
+**Description**  
+Computes the square root of a number and returns the result rounded down to the nearest integer using binary search.
+
+**Concepts Used**
+- Binary Search
+- Math Optimization
+- O(log n) Algorithm
+
+**Output Screenshot**
+
+![LeetCode Output](Day86/sqrt_leetcode.png)
+
+---
+
+## Day 87
+
+### Problem 1: Binary Search (Iterative)
+
+**Description**  
+Implements Binary Search using an iterative approach to find an element in a sorted array.
+
+**Concepts Used**
+- Binary Search
+- Arrays
+- Iterative Approach
+
+**Source Code**  
+[Day87/binary_search_iterative.c](Day87/binary_search_iterative.c)
+
+**Output Screenshot**
+
+![Program Output](Day87/binary_search_iterative.png)
+
+---
+
+### Problem 2: Koko Eating Bananas (LeetCode)
+
+**Description**  
+Finds the minimum eating speed required to finish all bananas within given hours using binary search.
+
+**Concepts Used**
+- Binary Search on Answer
+- Greedy Calculation
+- Optimization Technique
+
+**Output Screenshot**
+
+![LeetCode Output](Day87/koko_bananas_leetcode.png)
+
+---
+
+## Day 88
+
+### Problem 1: Aggressive Cows
+
+**Description**  
+Places k cows in stalls such that the minimum distance between any two cows is maximized.  
+Solved using binary search on answer.
+
+**Concepts Used**
+- Binary Search on Answer
+- Greedy Placement
+- Sorting
+
+**Source Code**  
+[Day88/aggressive_cows.c](Day88/aggressive_cows.c)
+
+**Output Screenshot**
+
+![Program Output](Day88/aggressive_cows.png)
+
+---
+
+### Problem 2: Magnetic Force Between Two Balls (LeetCode)
+
+**Description**  
+Finds the maximum minimum distance between balls placed in baskets using binary search.
+
+**Concepts Used**
+- Binary Search on Answer
+- Greedy Strategy
+- Sorting
+
+**Output Screenshot**
+
+![LeetCode Output](Day88/magnetic_force_leetcode.png)
+
+---
+
+## Day 89
+
+### Problem 1: Book Allocation Problem
+
+**Description**  
+Allocates books to students such that the maximum number of pages assigned is minimized.  
+Books must be assigned in contiguous order.
+
+**Concepts Used**
+- Binary Search on Answer
+- Greedy Allocation
+- Arrays
+
+**Source Code**  
+[Day89/book_allocation.c](Day89/book_allocation.c)
+
+**Output Screenshot**
+
+![Program Output](Day89/book_allocation.png)
+
+---
+
+### Problem 2: Capacity to Ship Packages Within D Days (LeetCode)
+
+**Description**  
+Finds the minimum ship capacity required to transport packages within a given number of days.
+
+**Concepts Used**
+- Binary Search on Answer
+- Greedy Strategy
+- Optimization Problems
+
+**Output Screenshot**
+
+![LeetCode Output](Day89/ship_packages_leetcode.png)
+
+---
+
+## Day 90
+
+### Problem 1: Painter’s Partition Problem
+
+**Description**  
+Determines the minimum time required to paint all boards using k painters, where each painter paints contiguous boards.
+
+**Concepts Used**
+- Binary Search on Answer
+- Greedy Allocation
+- Partitioning Problems
+
+**Source Code**  
+[Day90/painters_partition.c](Day90/painters_partition.c)
+
+**Output Screenshot**
+
+![Program Output](Day90/painters_partition.png)
+
+---
+
+### Problem 2: Split Array Largest Sum (LeetCode)
+
+**Description**  
+Splits an array into k subarrays such that the maximum subarray sum is minimized.
+
+**Concepts Used**
+- Binary Search on Answer
+- Greedy Strategy
+- Optimization Problems
+
+**Output Screenshot**
+
+![LeetCode Output](Day90/split_array_largest_sum_leetcode.png)
+
+---
+
+## Day 92
+
+### Problem 1: Quick Sort
+
+**Description**  
+Implements Quick Sort using the Lomuto partition scheme.  
+The array is partitioned around a pivot and recursively sorted.
+
+**Concepts Used**
+- Sorting Algorithms
+- Divide and Conquer
+- Quick Sort
+- Partitioning
+
+**Source Code**  
+[Day92/quick_sort.c](Day92/quick_sort.c)
+
+**Output Screenshot**
+
+![Program Output](Day92/quick_sort.png)
+
+---
+
+### Problem 2: Kth Largest Element in an Array (LeetCode)
+
+**Description**  
+Finds the kth largest element without fully sorting the array using QuickSelect.
+
+**Concepts Used**
+- QuickSelect Algorithm
+- Partitioning
+- Divide and Conquer
+
+**Output Screenshot**
+
+![LeetCode Output](Day92/kth_largest_leetcode.png)
+
+---
